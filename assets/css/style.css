@@ -13,4 +13,62 @@ body {
 
 
 
+/* ---------------------------------------------Footer */
+
+footer {
+    background-color: grey;
+    color: #F5F5F5;
+    min-height: 120px;
+    margin: 0;
+    padding-top: 15px;
+}
+
+.resume-pdf i {
+    font-size: 18px;
+    color: #F5F5F5;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.resume-pdf i:hover {
+    color: #2F4F4F;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #F5F5F5;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #2F4F4F;
+}
+
+#footer-details {
+    padding: 20px;
+}
+
+
+
+
+
+
     
