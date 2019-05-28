@@ -31,8 +31,14 @@ footer {
     
 }
 
+.footer {
+    position:absolute;
+    bottom: 0;
+    height: 25px;
+}
+
 .resume-pdf i {
-    font-size: 18px;
+    font-size: 22px;
     color: #F5F5F5;
     text-align: center;
     padding-left: 5px;
