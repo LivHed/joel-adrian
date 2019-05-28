@@ -3,20 +3,21 @@ body {
     color: #F5F5F5;
     background-color: #696969;
     text-align: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
-.container {
-    align-content: center;
-    color: transparent;
-    text-align: center;
+
 }
 
 /* ---------------------------------------About me page */
 
-.about-me {
-    
-}
-
+.container {
+    display: flex;
+    align-content: center;
+    color: #F5F5F5;
+    text-align: center;
+    height: auto;
 
 
 /* ---------------------------------------Contact page */
