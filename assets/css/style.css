@@ -1,14 +1,21 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: 	#F5F5F5;
+    color: #F5F5F5;
     background-color: #696969;
+    text-align: center;
 }
 
 .container {
     align-content: center;
+    color: transparent;
+    text-align: center;
 }
 
+/* ---------------------------------------About me section */
 
+.about-me {
+    
+}
 
 
 
@@ -16,11 +23,12 @@ body {
 /* ---------------------------------------------Footer */
 
 footer {
-    background-color: grey;
+    background-color: transparent;
     color: #F5F5F5;
     min-height: 120px;
     margin: 0;
     padding-top: 15px;
+    
 }
 
 .resume-pdf i {
@@ -64,6 +72,7 @@ footer {
 
 #footer-details {
     padding: 20px;
+    
 }
 
 
