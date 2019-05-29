@@ -1,16 +1,12 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #F5F5F5;
-    background-color: #696969;
-    text-align: center;
     padding-top: 75px;
     padding-bottom: 75px;
     
-    
-    background: url("../images/");
+    background: url("../images/file6-2.jpeg");
     background-repeat: no-repeat; 
     background-attachment: fixed;
-    bottom right;?
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -30,11 +26,12 @@ body {
     
 .about-container {
     height: 100hv;
+    
 
 }    
- 
     
-.overlay {
+/* maybe I don´t nedd this?
+    .overlay {
     display: absolute;
     top: 0;
     color: #F5F5F5;
@@ -42,7 +39,7 @@ body {
     height: 100%;
     width: 100%;
     background-color: rgba(0,0,0,0.5);
-} 
+}  */
     
  .jumbotron-header {
     font-weight: bold;
@@ -51,6 +48,7 @@ body {
 
 .jumbotron {
     background-color: transparent;
+    
 }
 
 
@@ -140,6 +138,7 @@ footer {
 
 #footer-details {
     padding: 15px;
+    position: fixed ;
     
 }
 
