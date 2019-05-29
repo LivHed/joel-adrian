@@ -67,8 +67,9 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 ### Content
 The text for section Y was copied from the Wikipedia article Z
-[Copied and pasted the contact form from this page, and then I modified it to how suits my needs](https://codepen.io/BlackNina/pen/MxoVqv?editors=1000)
+
 ### Media
 The photos used in this site were obtained from ...
 ### Acknowledgements
 I received inspiration for this project from X
+[Copied and pasted the contact form from this page, and then I modified it to how suits my needs](https://codepen.io/BlackNina/pen/MxoVqv?editors=1000)
