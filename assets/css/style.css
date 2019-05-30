@@ -17,6 +17,7 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
+    
 }
 
 
@@ -31,16 +32,7 @@ body {
 
 }    
     
-/* maybe I don´t nedd this?
-    .overlay {
-    display: absolute;
-    top: 0;
-    color: #F5F5F5;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0,0,0,0.5);
-}  */
+
     
  .jumbotron-header {
     font-weight: bold;
