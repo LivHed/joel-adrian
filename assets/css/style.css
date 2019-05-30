@@ -53,7 +53,12 @@ body {
     
 }
 
+/* ---------------------------------------Photos page */
 
+.images-container {
+    justify-content: center;
+    text-align: center;
+}
 
 
 
