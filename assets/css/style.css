@@ -4,6 +4,7 @@ body {
     padding-top: 75px;
     padding-bottom: 75px;
     
+/* I want the background-img to cover the screen and to not scroll with the pages content*/
     background: url("../images/file6-2.jpeg");
     background-repeat: no-repeat; 
     background-attachment: fixed;
@@ -58,12 +59,14 @@ body {
 
 /* ---------------------------------------Contact page */
 
-.resume-section {
+.contact-section {
     margin-top:3rem ;
     margin-bottom: 3rem
 }
 
-
+.collaboration-text {
+    font-weight: bolder;
+}
 
 
 
