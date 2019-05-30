@@ -47,9 +47,12 @@ body {
 
 /* ---------------------------------------Photos page */
 
+.page-header {
+    padding: 32px;
+    
+}
+
 .images-container {
-    justify-content: center;
-    text-align: center;
     box-sizing: border-box;
 }
 
@@ -62,7 +65,14 @@ body {
 }
 
 .images-column {
- margin-top: 8px;
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
   vertical-align: middle;
   width: 100%;
 }
