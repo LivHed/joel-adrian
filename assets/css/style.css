@@ -4,7 +4,7 @@ body {
     padding-top: 75px;
     padding-bottom: 75px;
     
-/* I want the background-img to cover the screen and to not scroll with the pages content*/
+/* I want the background-img to cover the screen on different sizes and to not scroll with the pages content*/
     background: url("../images/file6-2.jpeg");
     background-repeat: no-repeat; 
     background-attachment: fixed;
@@ -20,12 +20,20 @@ body {
     
 }
 
+/* ---------------------------------------Nav bar */
 
+.navbar {
+    background-color: #0000005e; 
+    opacity: 0.5; 
+    filter: alpha(opacity=50);
+}
 
 
 /* ---------------------------------------About me page */
 
 .about-container {
+   margin: 20px 0 20px 0;
+   
    
 }
 
@@ -33,7 +41,6 @@ body {
     background-color: #0000005e;
     padding-top: 75px;
     padding-bottom:; 75px;
-    
     
 }   
 
@@ -128,8 +135,10 @@ body {
 /* ---------------------------------------------Footer */
 
 footer {
-    background-color: #b1a8a852;
-    color: #F5F5F5;
+    background-color: #0000005e; 
+    opacity: 0.5; 
+    filter: alpha(opacity=50);
+    
     min-height: 100px;
     padding-top: 5px;
     width: 100%;
