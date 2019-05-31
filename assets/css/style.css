@@ -21,17 +21,20 @@ body {
 }
 
 
-}
+
 
 /* ---------------------------------------About me page */
 
-    
 .about-container {
-    height: 100hv;
-    
+   
+}
 
-}    
+ .jumbotron {
+    background-color: #0000005e;
+    padding-top: 75px;
+    padding-bottom:; 75px;
     
+}   
 
     
  .jumbotron-header {
@@ -40,10 +43,7 @@ body {
     
 }    
 
-.jumbotron {
-    background-color: #0000005e;
-    
-}
+
 
 /* ---------------------------------------Photos page */
 
@@ -56,6 +56,8 @@ body {
     box-sizing: border-box;
 }
 
+
+/* ---------------------------with code from W3Schools example for responsive image grid  */
 .images-row {
     display: -ms-flexbox; /* IE10 */
     display: flex;
