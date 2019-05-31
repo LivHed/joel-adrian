@@ -70,6 +70,10 @@ The text for section Y was copied from the Wikipedia article Z
 
 ### Media
 The photos used in this site were obtained from ...
+
+The videos used in this site were linked from Joel Adrians own Vimeo page. Here is [one of them.](https://vimeo.com/339213684)
+Here is [the other video](https://vimeo.com/198885890) from Joeal Adrians Vimeo page.
+
 ### Acknowledgements
 I received inspiration for this project from X
 [Copied and pasted the contact form from this page, and then I modified it to how suits my needs](https://codepen.io/BlackNina/pen/MxoVqv?editors=1000)
