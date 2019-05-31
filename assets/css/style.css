@@ -57,6 +57,27 @@ body {
     
 }    
 
+/* ---------------------------------------My work page */
+
+
+
+
+
+/* ---------------------------------------Videos page */
+
+.videos-container {
+    justify-content: center;
+    text-align: center;
+    width:800px;
+    margin: 0 auto 0 auto;
+    padding: 25px;
+}
+
+.embed-responsive {
+    margin-bottom: 35px;
+}
+
+
 
 
 /* ---------------------------------------Photos page */
@@ -109,19 +130,8 @@ body {
   }
 }
 
-/* ---------------------------------------Videos page */
 
-.videos-container {
-    justify-content: center;
-    text-align: center;
-    width:800px;
-    margin: 0 auto 0 auto;
-    padding: 25px;
-}
 
-.embed-responsive {
-    margin-bottom: 35px;
-}
 
 /* ---------------------------------------Contact page */
 
