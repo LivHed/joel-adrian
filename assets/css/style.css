@@ -28,6 +28,11 @@ body {
     filter: alpha(opacity=50);
 }
 
+.navbar .nav-item .nav-link:hover {
+    color:#000;
+    font-weight: bolder;
+}
+
 
 /* ---------------------------------------About me page */
 
@@ -177,7 +182,8 @@ footer {
 }
 
 .resume-pdf i:hover {
-    color: #2F4F4F;
+    color: #000;
+    
 }
 
 .social-links {
@@ -201,7 +207,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #2F4F4F;
+    background: #000;
 }
 
 #footer-details {
