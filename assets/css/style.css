@@ -20,7 +20,7 @@ body {
     position: relative;
 }
 
-/* ---------------------Scrollbar */
+/* ---------------------Scrollbar. Since it´s a custom scrollbar, it´s not supported in Firefox or IE/Edge */
     /* width */
 ::-webkit-scrollbar {
   width: 10px;
