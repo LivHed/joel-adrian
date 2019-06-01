@@ -159,12 +159,13 @@ body {
 }
 
 .collaboration-text {
-    font-weight: bolder;
+    font-weight: 400;
 }
 
 .my-auto {
     background-color:  #0000005e;
     padding: 7px;
+    
 }
 
 
