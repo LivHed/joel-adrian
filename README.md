@@ -14,8 +14,21 @@ Use this section to provide insight into your UX process, focusing on who this w
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 
+### User stories
 As a user type, I want to perform an action, so that I can achieve a goal.
+* As a colleague in the business I want to have a look at Joel Adrians work to find out what projects he´s busy on, befriend him on social media to expand my network in the business, and send him a message on the contact page with a collaboration idea.
+
+* As a martial artist or exreme sportsman I want to have a look at Joels videos,  pictures and resume to get inspired and learn about a career in the movie industry. 
+
+* As a coordinator, director or possible employer I want to have a look at his showreel and photos. I also want to read his resume and download it, so that I can hire him for a project. 
+
+* As a fan of Joel Adrian I want to look at pictures and videos of him, so I can get to know more about him. I also want to find out where I can follow him on social media. 
+
+
+
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+
+
 
 ## Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
@@ -37,6 +50,10 @@ JQuery
 The project uses JQuery to simplify DOM manipulation.
 
 ## Testing
+
+As a new visitor to the site, I want to be able to find everything I need easily. Therefor the navbar have been placed in the conventional position at the top of the page, and each of the page sections are clearly labelled in it.
+The footer is also placed in the conventional place in the bottom of the page. Here I have placed links to Social media and a link to download the resume, so the needs for possible employers, coordinators or directors to get the resume information will be able to get this quickly from whatever page they are currently on.
+
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
@@ -75,5 +92,6 @@ The videos used in this site were linked from Joel Adrians own Vimeo page. Here 
 Here is [the other video](https://vimeo.com/198885890) from Joeal Adrians Vimeo page.
 
 ### Acknowledgements
-I received inspiration for this project from X
-[Copied and pasted the contact form from this page, and then I modified it to how suits my needs](https://codepen.io/BlackNina/pen/MxoVqv?editors=1000)
+I received inspiration for this project from [this website](https://www.ellettecraddock.com/)
+I Copied the code for the contact form from [this page](https://codepen.io/BlackNina/pen/MxoVqv?editors=1000) and then I modified it to how suits my needs.
+The original code for the image grid was copied from [this page](https://mdbootstrap.com/docs/jquery/content/images/) and then customized for my one column-idea. 
