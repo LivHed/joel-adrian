@@ -98,8 +98,13 @@ body {
 }
 
 .images-container {
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+}
+
+.images-row {
+    width: auto;
+    height: auto;
+    display: inline-block;
 }
 
 
