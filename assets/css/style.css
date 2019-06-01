@@ -18,9 +18,32 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
-    
-    
 }
+
+/* ---------------------Scrollbar */
+    /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #2d2d2d; /* Add a slightly darker color to the scrollbar, so it won´t float together with the footer and the header, but don´t stand out to much. */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+    
+
+
+
 
 /* ---------------------------------------Nav bar */
 
