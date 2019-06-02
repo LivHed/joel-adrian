@@ -86,7 +86,6 @@ body {
 
     
  .jumbotron-header {
-    
     margin-bottom: 20px;
     color: #F5F5F5;
     
@@ -94,7 +93,14 @@ body {
 
 /* ---------------------------------------My work page */
 
+.mywork-container {
+    
+}
 
+.mywork-column {
+    background-color:  #0000005e;
+    
+}
 
 
 
