@@ -19,6 +19,7 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
+    
 }
 
 /* ---------------------Scrollbar. Since it´s a custom scrollbar, it´s not supported in Firefox or IE/Edge */
