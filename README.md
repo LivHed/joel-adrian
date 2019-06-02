@@ -40,6 +40,11 @@ The wireframes I did as a part of the desin process are linked in a separate dir
 (In this section, you should go over the different parts of your project, and describe each in a sentence or so.)
 * The navbar and the footer have the same color, so every page will give a sense of a familiarity, even though the content is changing.
 * I planned for the scrollbar to be discrete. That´s why I chose a background color that is slightly darker than the navbar and the footer. I chose not to have the same color as them, so it won´t give the impression that they float together as one element. 
+* The About me page is the landing page and gives a short introduction to Joel Adrian. 
+* The My work page show Joels resume directly on the page, and also give the opportunity to click on a link to download the resume and click on another link to get to Joel Adrians IMDB page.
+* The Videos page include two videos that shows what kind of stunts Joel is able to to and clips from movies. 
+* The Photos page shows images in one row that is clickable and will show in a separate window if clicked on.
+* The Contact page include a contact form that gives the opportunity to get in touch with Joel with collaboration ideas or job opportunities. 
 
 ### Existing Features
 (Feature 1 - allows users X to achieve Y, by having them fill out Z)
