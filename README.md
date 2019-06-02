@@ -18,7 +18,6 @@ After doing research looking at websites from the stunt performer community and 
 (Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.)
 
 
-
 ### User stories
 (In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure: As a user type, I want to perform an action, so that I can achieve a goal.)
 * As a colleague in the business I want to have a look at Joel Adrians work to find out what projects he´s busy on, befriend him on social media to expand my network in the business, and send him a message on the contact page with a collaboration idea.
@@ -53,6 +52,8 @@ The wireframes I did as a part of the desin process are linked in a separate dir
 * The contact form is placed with no other content on the page to be easily accessed and also gives instructions that is easily understood so the users can contact Joel. 
 * The resume pdf document is also embedded responsilvely in the My work page, to be easily overviewed. Under it it´s also possible to click on a link to be able to download it. 
 * A custom scrollbar is added so the users can be able to scroll up and down the pages easy.
+* The hover effects is designed with a dark color to suit the users and the transition effect is set to feel smooth.
+* The fullwidth background image is suppose to remind the users what Joel is all about, a Stunt Performer with experience in the movie industry. The content scrolls infront of the image and it is the same on all pages to give a sense of familiarity and a recognizable design. 
  
 
 (For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.)
