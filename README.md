@@ -38,6 +38,8 @@ The wireframes I did as a part of the desin process are linked in a separate dir
 
 ## Features
 (In this section, you should go over the different parts of your project, and describe each in a sentence or so.)
+### Existing Features
+(Feature 1 - allows users X to achieve Y, by having them fill out Z)
 * The navbar and the footer have the same color, so every page will give a sense of a familiarity, even though the content is changing.
 * I planned for the scrollbar to be discrete. That´s why I chose a background color that is slightly darker than the navbar and the footer. I chose not to have the same color as them, so it won´t give the impression that they float together as one element. 
 * The About me page is the landing page and gives a short introduction to Joel Adrian. 
@@ -46,16 +48,14 @@ The wireframes I did as a part of the desin process are linked in a separate dir
 * The Photos page shows images in one row that is clickable and will show in a separate window if clicked on.
 * The Contact page include a contact form that gives the opportunity to get in touch with Joel with collaboration ideas or job opportunities. 
 
-### Existing Features
-(Feature 1 - allows users X to achieve Y, by having them fill out Z)
-
-1. The navbar collapse on smaller screens- which provides with a disrete design and easy user experience with the menu items grouped together.
-2. The Download my resume link and the Social links is placed in the footer to be easily accessed on every page on the website.
-3. The contact form is placed with no other content on the page to be easily accessed and also gives instructions that is easily understood so the users can contact Joel. 
-4. The resume pdf document is also embedded responsilvely in the My work page, to be easily overviewed. Under it it´s also possible to click on a link to be able to download it. 
-5. A custom scrollbar is added so the users can be able to scroll up and down the pages easy.
+* The navbar collapse on smaller screens- which provides with a disrete design and easy user experience with the menu items grouped together.
+* The Download my resume link and the Social links is placed in the footer to be easily accessed on every page on the website.
+* The contact form is placed with no other content on the page to be easily accessed and also gives instructions that is easily understood so the users can contact Joel. 
+* The resume pdf document is also embedded responsilvely in the My work page, to be easily overviewed. Under it it´s also possible to click on a link to be able to download it. 
+* A custom scrollbar is added so the users can be able to scroll up and down the pages easy.
  
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+
+(For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.)
 
 (In addition, you may also use this section to discuss plans for additional features to be implemented in the future:)
 
