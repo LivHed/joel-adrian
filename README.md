@@ -32,7 +32,7 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 ## Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-* The navbar and the footer have the same color, so that every page will give a sense of a familiarity, even though the content is changing. 
+* The navbar and the footer have the same color, so every page will give a sense of a familiarity, even though the content is changing.
 * I planned for the scrollbar to be descrete. That´s why I chose a background color that is slightly darker than the navbar and the footer. I chose not to have the same color as them, so it won´t give the impression that they float together as one element. 
 
 ### Existing Features
