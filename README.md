@@ -54,11 +54,11 @@ I worked with the wireframes in Balsamic. **Can I link directly here in the text
 2. In the future I also want to change the current image grid to a lightbox, for the users to be able to see the images on the same page they are currently on. I want to test this to see if this technique changes the amount of clicks on the Photos page.
 
 ## Technologies Used
-**The languages** I have used for this project is HTML5 and CSS3. I have used Bootstrap grid with the built in media queries for the content to be responsive on all screen sizes. 
-**The libraries** included are the Javascript libraries [JQuery](https://jquery.com/) and [Popper.js](https://popper.js.org/). And also [Fontawesome](https://fontawesome.com/) to add icons.
-**Frameworks** I have used is Bootstrap 4.3.1. I used the BootstrapCDN on [this page](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
-**Other tools** I have used are [Cloud9 IDE](https://aws.amazon.com/cloud9/?origin=c9io) for writing, debugging and running my code, and then pushed it to [Github](http://github.com) where the project is stored and deployed.
-As part of the **design process** i chose to use [Balsamic](https://balsamiq.com/) to make my wireframes in a simple way with a goodlooking result.
+* **The languages** I have used for this project is HTML5 and CSS3. I have used Bootstrap grid with the built in media queries for the content to be responsive on all screen sizes. 
+* **The libraries** included are the Javascript libraries [JQuery](https://jquery.com/) and [Popper.js](https://popper.js.org/). And also [Fontawesome](https://fontawesome.com/) to add icons.
+* **Frameworks** I have used is Bootstrap 4.3.1. I used the BootstrapCDN on [this page](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
+* **Other tools** I have used are [Cloud9 IDE](https://aws.amazon.com/cloud9/?origin=c9io) for writing, debugging and running my code, and then pushed it to [Github](http://github.com) where the project is stored and deployed.
+* As part of the **design process** i chose to use [Balsamic](https://balsamiq.com/) to make my wireframes in a simple way with a goodlooking result.
 
 
 (In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
@@ -85,17 +85,16 @@ Since the footer is also placed in the conventional bottom of the page position,
 * The responsive image grid with the one column design looks good on smaller screens as well as the larger. 
 * The embedded videos also changes in it´s size when making the screen size smaller and is still good to watch.
 * The embedded pdf resume document is responsive, and on smaller screens the scrollbars in the document appears even horizontally. 
+* The contactform act responsive when the screen gets smaller and still functions properly. 
 
 (Write about how each part of your responsive website behaves on different screen sizes)
 
 (In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.)
 
-(Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.)
-
+(Whenever it is feasible, prefer to automate your tests *what does this mean, automate your tests?*, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.)
 (For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
 #### Testing process scenarios 
-
 1. **Contact form** 
 * I went to the "Contact" page
 * I tried to submit the form with all the fields empty, and I could verify that a relevant error message showed up. 
@@ -121,20 +120,19 @@ Since the footer is also placed in the conventional bottom of the page position,
 * I then clicked on the icons from all pages and could verify that this is working.
 * At last I went to My work page and I clicked on the IMDB icon under the resume Pdf document, under the text "My IMDB page. Check it out here!, and could verify that this link is also working"
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.)
 
-**Bugs I came across while creating the site and while testing it**
+* **Bugs I came across while creating the site and while testing it**
 When testing the webiste on smaller screen sizes I discovered that half of the footer disappears underneath the edge of the screen. 
 The content on the web pages also disappears underneath it. I tried to change the position to relative and absolute intstead of fixed to the bottom. But this did not work. 
-**present the solution when I find it**
+* **present the solution when I find it**
 (Include the fixes you came up with.)
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+If this section grows too long, you may want to split it off into a separate file and link to it from here.*how do I do this?*
 
 ## Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages).
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
 
@@ -149,7 +147,6 @@ The text on the About me page was written by Joel Adrian, sent to me in purpose 
 (for section Y was copied from the Wikipedia article Z)
 
 ### Media
-
 The photos used in this site were obtained from Joel Adrian, the owner of the photos.
 The videos used in this site were linked from Joel Adrians own Vimeo page, the owner of the videos. Here is [one of them.](https://vimeo.com/339213684)
 and here is [the other video](https://vimeo.com/198885890) from Joel Adrians Vimeo page.
