@@ -67,7 +67,7 @@ The wireframes I did as a part of the desin process are linked in a separate dir
 2. In the future I also want to change the current image grid to a lightbox, for the users to be able to see the images on the same page they are currently on. I want to test this to see if this technique changes the amount of clicks on the Photos page.
 
 ## Technologies Used
-**The languages** I have used for this project is HTML and CSS. 
+**The languages** I have used for this project is HTML and CSS. I have used Bootstrap grid with the built in media queries for the content to be responsive on all screen sizes. 
 **The libraries** included are Ajax, Popper. And also Fontawesome and Jquery. 
 **Frameworks** I have used is Bootstrap 4.3.1
 **Other tools** I have used are Cloud9 IDE for writing my code, and then pushed it to Github, where the project is stored and deployed.
@@ -144,14 +144,14 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ## Credits
 ### Content
-The text for section Y was copied from the Wikipedia article Z
+The text on the About me page was written by Joel Adrian, sent to me in purpose to use it on the website. 
+(for section Y was copied from the Wikipedia article Z)
 
 ### Media
-The photos used in this site were obtained from ...
 
-The photos used in this site were obtained from Joel Adrian, that is allowed to use the images he´s in if it´s not used to sell something. **Ask Joel if there were more reasons, to be sure**
-The videos used in this site were linked from Joel Adrians own Vimeo page. Here is [one of them.](https://vimeo.com/339213684)
-Here is [the other video](https://vimeo.com/198885890) from Joeal Adrians Vimeo page.
+The photos used in this site were obtained from Joel Adrian, the owner of the photos.
+The videos used in this site were linked from Joel Adrians own Vimeo page, the owner of the videos. Here is [one of them.](https://vimeo.com/339213684)
+and here is [the other video](https://vimeo.com/198885890) from Joeal Adrians Vimeo page.
 
 ### Acknowledgements
 I received inspiration for this project from [this website](https://www.ellettecraddock.com/)
