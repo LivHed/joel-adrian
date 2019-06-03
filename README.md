@@ -1,25 +1,16 @@
 # Joel Adrian - Stunt performer
 This is Milestone Project 1: User Centric Frontend Development - at Code Institute.
 
-
 This is a website that functions as a portfolio for Joel Adrian, Stunt Performer. The portfolio enables all of Joels work to be gathered and shown in one place, in form of photos, videos and a resume.
 The website have five pages that shows a presentation of Joel, what kind of work he have done and how you can contact him or follow him on social media. 
-(One or two paragraphs providing an overview of your project.
-Essentially, this part is your sales pitch.)
-
-
 
 
 ## UX
-After doing research looking at websites from the stunt performer community and interview Joel about his wishes and needs with the portfolio, my goals with the design was set to: 
+After doing research looking at websites from the Stunt Performer community and interviewing Joel about his wishes and needs with the portfolio, my goals with the design was set to: 
 1. To make the design suitable for the stunt-community with fonts and colors that provides a feeling of a tough and rough edge, but still maintain a stylistic and clean design.
-2. To make 5 pages with it´s own categorical content on it, to keep it easy to find what you want and to maintain a clean impression with all the media I´m using on the website. 
-
-(Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.)
-
+2. To make 5 pages with it´s own categorical content on each page, to keep it easy to find what you want on the site and to maintain a clean impression with all the media content I´m including on the website.
 
 ### User stories
-(In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure: As a user type, I want to perform an action, so that I can achieve a goal.)
 * As a colleague in the business I want to have a look at Joel Adrians work to find out what projects he´s busy on, befriend him on social media to expand my network in the business, and send him a message on the contact page with a collaboration idea.
 
 * As a martial artist or exreme sportsman I want to have a look at Joels videos,  pictures and resume to get inspired and learn about a career in the movie industry. 
@@ -28,11 +19,10 @@ After doing research looking at websites from the stunt performer community and 
 
 * As a fan of Joel Adrian I want to look at pictures and videos of him, so I can get to know more about him. I also want to find out where I can follow him on social media. 
 
-
 ### Wireframes
-The wireframes I did as a part of the desin process are linked in a separate directory in the project, called **wireframe**. One is designed for desktop view and the other for mobile view.
+The wireframes I did as a part of the design process are saved as pdf documents and kept in a separate directory in the project, which is called **wireframe**. One is designed for desktop view and the other for mobile view.
+I worked with the wireframes in Balsamic. **Can I link directly here in the text to the wireframe directory?**
 (This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.)
-**Can I link directly here in the text to the wireframe directory?**
 
 
 ## Features
@@ -54,15 +44,12 @@ The wireframes I did as a part of the desin process are linked in a separate dir
 * A custom scrollbar is added so the users can be able to scroll up and down the pages easy.
 * The hover effects is designed with a dark color to suit the users and the transition effect is set to feel smooth.
 * The fullwidth background image is suppose to remind the users what Joel is all about, a Stunt Performer with experience in the movie industry. The content scrolls infront of the image and it is the same on all pages to give a sense of familiarity and a recognizable design. 
+
  
-
 (For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.)
-
 (In addition, you may also use this section to discuss plans for additional features to be implemented in the future:)
 
 ### Features Left to Implement
-(Another feature idea)
-
 1. In the future I want to add more videos to expand the experience of Joel as an experienced Stunt Performer. Today these videos are the existing that Joel want to share.
 2. In the future I also want to change the current image grid to a lightbox, for the users to be able to see the images on the same page they are currently on. I want to test this to see if this technique changes the amount of clicks on the Photos page.
 
@@ -71,6 +58,7 @@ The wireframes I did as a part of the desin process are linked in a separate dir
 **The libraries** included are Ajax, Popper. And also Fontawesome and Jquery. 
 **Frameworks** I have used is Bootstrap 4.3.1
 **Other tools** I have used are Cloud9 IDE for writing my code, and then pushed it to Github, where the project is stored and deployed.
+As part of the **design process** i chose to use [Balsamic](https://balsamiq.com/) to make my wireframes in a simple way with a goodlooking result.
 
 
 (In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
