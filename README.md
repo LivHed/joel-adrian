@@ -78,7 +78,7 @@ JQuery
 The project uses JQuery to simplify DOM manipulation.)
 
 ## Testing
-Here I present how my website meet the needs of the different kind of users that will visit the site, which I presented in the section User stories:
+Here I present how my website meet the needs of the different kinds of users that will visit the site, which I presented in the section UX: User stories:
 * As a colleague in the business I want to have a look at Joel Adrians work to find out what projects he´s busy on, befriend him on social media to expand my network in the business, and send him a message on the contact page with a collaboration idea. --> This information can be easily found since all page sections are clearly labelled in the navbar which is placed in the conventional place on top of the page.
 Since the footer is also placed in the conventional bottom of the page position, it will be easy to find the social links positioned there regardless on which page they are currently on.
 
@@ -94,6 +94,10 @@ Since the footer is also placed in the conventional bottom of the page position,
 (Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.)
 
 (For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+
+1. Contact form
+Go to the "Contact" page
+
 
 1. Contact form:
 Go to the "Contact Us" page
