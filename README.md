@@ -54,10 +54,10 @@ I worked with the wireframes in Balsamic. **Can I link directly here in the text
 2. In the future I also want to change the current image grid to a lightbox, for the users to be able to see the images on the same page they are currently on. I want to test this to see if this technique changes the amount of clicks on the Photos page.
 
 ## Technologies Used
-**The languages** I have used for this project is HTML and CSS. I have used Bootstrap grid with the built in media queries for the content to be responsive on all screen sizes. 
-**The libraries** included are Ajax, Popper. And also Fontawesome and Jquery. 
-**Frameworks** I have used is Bootstrap 4.3.1
-**Other tools** I have used are Cloud9 IDE for writing my code, and then pushed it to Github, where the project is stored and deployed.
+**The languages** I have used for this project is HTML5 and CSS3. I have used Bootstrap grid with the built in media queries for the content to be responsive on all screen sizes. 
+**The libraries** included are the Javascript libraries [JQuery](https://jquery.com/) and [Popper.js](https://popper.js.org/). And also [Fontawesome](https://fontawesome.com/) to add icons.
+**Frameworks** I have used is Bootstrap 4.3.1. I used the BootstrapCDN on [this page](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
+**Other tools** I have used are [Cloud9 IDE](https://aws.amazon.com/cloud9/?origin=c9io) for writing, debugging and running my code, and then pushed it to [Github](http://github.com) where the project is stored and deployed.
 As part of the **design process** i chose to use [Balsamic](https://balsamiq.com/) to make my wireframes in a simple way with a goodlooking result.
 
 
