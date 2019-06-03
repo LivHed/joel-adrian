@@ -89,8 +89,8 @@ Since the footer is also placed in the conventional bottom of the page position,
 * As a fan of Joel Adrian I want to look at pictures and videos of him, so I can get to know more about him. I also want to find out where I can follow him on social media. --> The images and pictures are clearly labelled in the navbar to find, and the social links is possible to click on from any page, that the fans are currently on. 
 
 #### Validation of code
-**I used this website to validate my HTML:**
-**I used this website to validate my CSS:**
+* I used [this website](https://validator.w3.org/#validate_by_input) to validate my HTML by direct input.
+* I used [this website](https://jigsaw.w3.org/css-validator/validator.html.en#validate_by_input) to validate my CSS by direct input.
 
 -Write about how each part of your responsive website behaves on different screen sizes.
 
