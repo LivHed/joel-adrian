@@ -1,13 +1,12 @@
 body {
-   font-family: 'Lato', sans-serif;
+    font-family: 'Merriweather', serif;
     color: #F5F5F5;
     padding-top: 60px; 
     min-height: 100%;
    /* padding-bottom: 15px; */
     
-    
 /* I want the background-img to cover the screen on different sizes and to not scroll with the pages content*/
-    background: url("../images/file6-2.jpeg")
+    background: url("../images/file6-2.jpeg");
     background-repeat: no-repeat; 
     background-attachment: fixed;
     -webkit-background-size: cover;
