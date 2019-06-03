@@ -36,16 +36,15 @@ I worked with the wireframes in Balsamic. **Can I link directly here in the text
 * The Videos page include two videos that shows what kind of stunts Joel is able to to and clips from movies. 
 * The Photos page shows images in one row that is clickable and will show in a separate window if clicked on.
 * The Contact page include a contact form that gives the opportunity to get in touch with Joel with collaboration ideas or job opportunities. 
-
-* The navbar collapse on smaller screens- which provides with a disrete design and easy user experience with the menu items grouped together.
-* The Download my resume link and the Social links is placed in the footer to be easily accessed on every page on the website.
-* The contact form is placed with no other content on the page to be easily accessed and also gives instructions that is easily understood so the users can contact Joel. 
-* The resume pdf document is also embedded responsilvely in the My work page, to be easily overviewed. Under it it´s also possible to click on a link to be able to download it. 
-* A custom scrollbar is added so the users can be able to scroll up and down the pages easy.
-* The hover effects is designed with a dark color to suit the users and the transition effect is set to feel smooth.
 * The fullwidth background image is suppose to remind the users what Joel is all about, a Stunt Performer with experience in the movie industry. The content scrolls infront of the image and it is the same on all pages to give a sense of familiarity and a recognizable design. 
+* Joels name is not conventionally placed up in the left corner as a brand or logo, on purpose. After his wishes with a discrete design we agreed on only havning his name in the title and on the landing page, and let the background image remind the users of who´s website they´re on. 
+* The navbar collapse on smaller screens, which provides a discrete design and simple user experience with the menu items grouped together.
+* The Download my resume link and the Social links is placed in the footer to be easily accessed on every page on the website.
+* The contact form is placed with no other content on the page to be easily accessed and also gives instructions that is easily understood so the users quickly can send a message to Joel.
+* The resume pdf document is also embedded responsively in the My work page, to be easily overviewed. Under it it´s also possible to click on an icon to be able to download it. 
+* A custom scrollbar is added so the users can be able to scroll up and down all of the pages when needed.
+* The hover effects is designed with a dark color to suit the users and the transition effect is set to feel smooth.
 
- 
 (For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.)
 (In addition, you may also use this section to discuss plans for additional features to be implemented in the future:)
 
@@ -54,7 +53,7 @@ I worked with the wireframes in Balsamic. **Can I link directly here in the text
 2. In the future I also want to change the current image grid to a lightbox, for the users to be able to see the images on the same page they are currently on. I want to test this to see if this technique changes the amount of clicks on the Photos page.
 
 ## Technologies Used
-* **The languages** I have used for this project is HTML5 and CSS3. I have used Bootstrap grid with the built in media queries for the content to be responsive on all screen sizes. 
+* **The languages** I have used for this project is [HTML5](https://www.w3schools.com/html/html5_intro.asp) and [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3). I have used Bootstrap grid with the built in media queries for the content to be responsive on all screen sizes. 
 * **The libraries** included are the Javascript libraries [JQuery](https://jquery.com/) and [Popper.js](https://popper.js.org/). And also [Fontawesome](https://fontawesome.com/) to add icons.
 * **Frameworks** I have used is Bootstrap 4.3.1. I used the BootstrapCDN on [this page](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
 * **Other tools** I have used are [Cloud9 IDE](https://aws.amazon.com/cloud9/?origin=c9io) for writing, debugging and running my code, and then pushed it to [Github](http://github.com) where the project is stored and deployed.
@@ -62,8 +61,7 @@ I worked with the wireframes in Balsamic. **Can I link directly here in the text
 
 
 (In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-JQuery
-The project uses JQuery to simplify DOM manipulation.)
+JQuery- The project uses JQuery to simplify DOM manipulation.)
 
 ## Testing
 Here I present how my website meet the needs of the different kinds of users that will visit the site, which I presented in the section UX: User stories:
