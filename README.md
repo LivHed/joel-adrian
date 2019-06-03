@@ -94,13 +94,32 @@ Since the footer is also placed in the conventional bottom of the page position,
 (Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.)
 
 (For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+#### Testing process scenarios 
 
 1. **Contact form** 
 * I went to the "Contact" page
 * I tried to submit the form with all the fields empty, and I could verify that a relevant error message showed up. 
 * I tried to submit the form with an invalid email adress (without the @ character), and I could verify that a relevant error message showed up.
 * I tried to submit the form with all inputs valid and I could verify that a success message appears in a new window. 
+* I also tried this process on smaller screen sizes and could verify that the form is responsive and works on all sizes. 
 * Bugs discovered, which is not adressed yet: When typing an email with the @ character but without the . dot the form could be submitted anyway.
+
+2. **Download resume in footer**
+* I clicked on Download my resume in the footer.
+* I clicked on the download icon, and could verify that the resume in pdf format opens up in a new tab.
+* I clicked on the download button in the top right corner of the document and could verify that I could download it to my computer. 
+* At last I closed the tab and got back to the website.
+
+3. **Download resume in My work page**
+* I went to the "My work" page and I could verify that the embedded pdf is showing, and that it´s possible to zoom and scroll in the document at the My work page. 
+* I clicked on download button on the embedded pdf and could verify that it could be downloaded to my computer from here as well.
+* I scrolled down the page and clicked on the download icon under the text "Click here to download my resume!"located just under the pdf document, and I could verify that the pdf opens up in a new tab and is possible to download to my computer. 
+* I tried this process on smaller screen sizes and could verify that the pdf is responsive and that this worked on smaller screens.
+
+4. **Social links**
+* I clicked on the icons in the footer, on by one, and could verify that they opened up i separate tabs leading to the social links: Facebook, Instagram and IMDB. 
+* I then clicked on the icons from all pages and could verify that this is working.
+* At last I went to My work page and I clicked on the IMDB icon under the resume Pdf document, under the text "My IMDB page. Check it out here!, and could verify that this link is also working"
 
 (1. Contact form:
 Go to the "Contact Us" page
