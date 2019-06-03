@@ -142,7 +142,7 @@ body {
 .videos-container {
     justify-content: center;
     text-align: center;
-    width:800px;
+    width: 800px;
     margin: 0 auto 0 auto;
     
 }
@@ -219,12 +219,14 @@ body {
 /* ---------------------------------------Contact page */
 
 .contact-section {
-    margin-top:3rem ;
-    margin-bottom: 3rem
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    
 }
 
 .collaboration-text {
     font-weight: 400;
+    
 }
 
 .my-auto {
