@@ -13,7 +13,7 @@ Essentially, this part is your sales pitch.)
 ## UX
 After doing research looking at websites from the stunt performer community and interview Joel about his wishes and needs with the portfolio, my goals with the design was set to: 
 1. To make the design suitable for the stunt-community with fonts and colors that provides a feeling of a tough and rough edge, but still maintain a stylistic and clean design.
-2. To make 5 pages with it´s own categorical content on it, to keep it easy to find what you want and to avoid a messy impression. 
+2. To make 5 pages with it´s own categorical content on it, to keep it easy to find what you want and to maintain a clean impression with all the media I´m using on the website. 
 
 (Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.)
 
