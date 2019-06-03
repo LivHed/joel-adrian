@@ -67,13 +67,19 @@ The wireframes I did as a part of the desin process are linked in a separate dir
 2. In the future I also want to change the current image grid to a lightbox, for the users to be able to see the images on the same page they are currently on. I want to test this to see if this technique changes the amount of clicks on the Photos page.
 
 ## Technologies Used
+**The languages** I have used for this project is HTML and CSS. 
+**The libraries** included are Ajax, Popper. And also Fontawesome and Jquery. 
+**Frameworks** I have used is Bootstrap 4.3.1
+**Other tools** I have used are Cloud9 IDE for writing my code, and then pushed it to Github, where the project is stored and deployed.
+
+
 (In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 JQuery
 The project uses JQuery to simplify DOM manipulation.)
 
 ## Testing
 
-As a new visitor to the site, I want to be able to find everything I need easily. Therefor the navbar have been placed in the conventional position at the top of the page, and each of the page sections are clearly labelled in it.
+As a new visitor to the site as a fan, colleague or coordinator, I want to be able to find everything I need easily. Therefore the navbar have been placed in the conventional position at the top of the page, and each of the page sections are clearly labelled in it.
 The footer is also placed in the conventional place in the bottom of the page. Here I have placed links to Social media and a link to download the resume, so the needs for possible employers, coordinators or directors to get the resume information will be able to get this quickly from whatever page they are currently on.
 
 (In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.)

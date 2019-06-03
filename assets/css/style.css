@@ -7,7 +7,7 @@ body {
     
     
 /* I want the background-img to cover the screen on different sizes and to not scroll with the pages content*/
-    background: url("../images/file6-2.jpeg");
+    background: url("../images/file6-2.jpeg")
     background-repeat: no-repeat; 
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -21,6 +21,7 @@ body {
     position: relative;
     
 }
+
 
 /* ---------------------Scrollbar. Since it´s a custom scrollbar, it´s not supported in Firefox or IE/Edge */
     /* width */
