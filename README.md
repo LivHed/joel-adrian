@@ -20,7 +20,7 @@ After doing research looking at websites from the Stunt Performer community and 
 * As a fan of Joel Adrian I want to look at pictures and videos of him, so I can get to know more about him. I also want to find out where I can follow him on social media. 
 
 ### Wireframes
-The wireframes I did as a part of the design process are saved as pdf documents and kept in a separate directory in the project, which is called **wireframe**. One is designed for desktop view and the other for mobile view.
+The wireframes I did as a part of the design process are saved as pdf documents and kept in a separate folder in this project, which is called **wireframe**. You can view them [here](assets/wireframe/JoelAdrianVersion3.pdf) One is designed for desktop view and the other for mobile view.
 I worked with the wireframes in Balsamic. **Can I link directly here in the text to the wireframe directory?**
 (This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.)
 
