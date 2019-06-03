@@ -92,13 +92,20 @@ Since the footer is also placed in the conventional bottom of the page position,
 * I used [this website](https://validator.w3.org/#validate_by_input) to validate my HTML by direct input.
 * I used [this website](https://jigsaw.w3.org/css-validator/validator.html.en#validate_by_input) to validate my CSS by direct input.
 
--Write about how each part of your responsive website behaves on different screen sizes.
+#### The responsive parts of the website
+* The responsive navbar collapse as planned on smaller screens, and take place in the top center of the screen.
+* The responsive image grid with the one column design looks good on smaller screens as well as the larger. 
+* The embedded videos also changes in it´s size when making the screen size smaller and is still good to watch.
+* The embedded pdf resume document is responsive, and on smaller screens the scrollbars in the document appears even horizontally. 
+
+(Write about how each part of your responsive website behaves on different screen sizes)
 
 (In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.)
 
 (Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.)
 
 (For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+
 #### Testing process scenarios 
 
 1. **Contact form** 
@@ -126,11 +133,6 @@ Since the footer is also placed in the conventional bottom of the page position,
 * I then clicked on the icons from all pages and could verify that this is working.
 * At last I went to My work page and I clicked on the IMDB icon under the resume Pdf document, under the text "My IMDB page. Check it out here!, and could verify that this link is also working"
 
-(1. Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.)
 
 **Bugs I came across while creating the site and while testing it**
@@ -162,7 +164,7 @@ The text on the About me page was written by Joel Adrian, sent to me in purpose 
 
 The photos used in this site were obtained from Joel Adrian, the owner of the photos.
 The videos used in this site were linked from Joel Adrians own Vimeo page, the owner of the videos. Here is [one of them.](https://vimeo.com/339213684)
-and here is [the other video](https://vimeo.com/198885890) from Joeal Adrians Vimeo page.
+and here is [the other video](https://vimeo.com/198885890) from Joel Adrians Vimeo page.
 
 ### Acknowledgements
 I received inspiration for this project from [this website](https://www.ellettecraddock.com/)
