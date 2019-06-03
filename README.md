@@ -88,6 +88,11 @@ Since the footer is also placed in the conventional bottom of the page position,
 
 * As a fan of Joel Adrian I want to look at pictures and videos of him, so I can get to know more about him. I also want to find out where I can follow him on social media. --> The images and pictures are clearly labelled in the navbar to find, and the social links is possible to click on from any page, that the fans are currently on. 
 
+#### Validation of code
+**I used this website to validate my HTML:**
+**I used this website to validate my CSS:**
+
+-Write about how each part of your responsive website behaves on different screen sizes.
 
 (In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.)
 
@@ -102,7 +107,7 @@ Since the footer is also placed in the conventional bottom of the page position,
 * I tried to submit the form with an invalid email adress (without the @ character), and I could verify that a relevant error message showed up.
 * I tried to submit the form with all inputs valid and I could verify that a success message appears in a new window. 
 * I also tried this process on smaller screen sizes and could verify that the form is responsive and works on all sizes. 
-* Bugs discovered, which is not adressed yet: When typing an email with the @ character but without the . dot the form could be submitted anyway.
+* Bug discovered, which is not adressed yet: When typing an email with the @ character but without the . dot the form could be submitted anyway.
 
 2. **Download resume in footer**
 * I clicked on Download my resume in the footer.
@@ -127,6 +132,12 @@ Try to submit the empty form and verify that an error message about the required
 Try to submit the form with an invalid email address and verify that a relevant error message appears
 Try to submit the form with all inputs valid and verify that a success message appears.
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.)
+
+**Bugs I came across while creating the site and while testing it**
+When testing the webiste on smaller screen sizes I discovered that half of the footer disappears underneath the edge of the screen. 
+The content on the web pages also disappears underneath it. I tried to change the position to relative and absolute intstead of fixed to the bottom. But this did not work. 
+**present the solution when I find it**
+(Include the fixes you came up with.)
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
