@@ -1,9 +1,14 @@
+/*html, body {
+    height: 100%;
+    width: 100%;
+} */
+
+
 body {
     font-family: 'Merriweather', serif;
     color: #F5F5F5;
     padding-top: 60px; 
-    min-height: 100%;
-   /* padding-bottom: 15px; */
+   /* padding-bottom: 15px; do I need this? */
     
 /* I want the background-img to cover the screen on different sizes and to not scroll with the pages content*/
     background: url("../images/file6-2.jpeg");
@@ -21,6 +26,11 @@ body {
     
 }
 
+ /*.background-overlay {
+    height: 100%;
+    background-color: black;
+    opacity: 1;
+} */
 
 /* ---------------------Scrollbar. Since it´s a custom scrollbar, it´s not supported in Firefox or IE/Edge */
     /* width */
@@ -47,14 +57,19 @@ body {
 
 
 
-/* ---------------------------------------Nav bar */
+/* -----------------------------------------Nav bar */
 
-.navbar {
+ .navbar {
    /* background-color: #0000005e; 
     opacity: 0.5; 
     filter: alpha(opacity=50); */
     background-color: #404040;
     color:#fafafa;
+
+    
+} 
+
+.navbar-nav .nav-item li a {
     
 }
 
@@ -66,7 +81,7 @@ body {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
-
+ 
 
 
 
@@ -74,7 +89,6 @@ body {
 
 .about-container {
    margin: 20px 0 20px 0;
-   
    
 }
 
@@ -267,6 +281,7 @@ footer {
 
 .social-links {
     padding-bottom: 15px;
+    
 }
 
 .social-links li a i {
@@ -298,6 +313,3 @@ footer {
     margin-bottom: 0px;
 }
 
-
-
-    
