@@ -78,9 +78,16 @@ JQuery
 The project uses JQuery to simplify DOM manipulation.)
 
 ## Testing
+Here I present how my website meet the needs of the different kind of users that will visit the site, which I presented in the section User stories:
+* As a colleague in the business I want to have a look at Joel Adrians work to find out what projects he´s busy on, befriend him on social media to expand my network in the business, and send him a message on the contact page with a collaboration idea. --> This information can be easily found since all page sections are clearly labelled in the navbar which is placed in the conventional place on top of the page.
+Since the footer is also placed in the conventional bottom of the page position, it will be easy to find the social links positioned there regardless on which page they are currently on.
 
-As a new visitor to the site as a fan, colleague or coordinator, I want to be able to find everything I need easily. Therefore the navbar have been placed in the conventional position at the top of the page, and each of the page sections are clearly labelled in it.
-The footer is also placed in the conventional place in the bottom of the page. Here I have placed links to Social media and a link to download the resume, so the needs for possible employers, coordinators or directors to get the resume information will be able to get this quickly from whatever page they are currently on.
+* As a martial artist or exreme sportsman I want to have a look at Joels videos, pictures and resume to get inspired and learn about a career in the movie industry. --> This information will be easily found in the clearly labelled page sections in the navbar. In the page My work they can have a look at the resume, without having to download it, and play the videos directly in the webpage to see some clips.
+
+* As a coordinator, director or possible employer I want to have a look at his showreel and photos. I also want to read his resume and download it, so that I can hire him for a project. --> The showreel will be found in the Videos page, and the resume can be downloaded from the footer from any page, but to have a preview of the resume directly on the page before downoading is intentionally made for this type of user.
+
+* As a fan of Joel Adrian I want to look at pictures and videos of him, so I can get to know more about him. I also want to find out where I can follow him on social media. --> The images and pictures are clearly labelled in the navbar to find, and the social links is possible to click on from any page, that the fans are currently on. 
+
 
 (In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.)
 
