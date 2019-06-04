@@ -32,7 +32,7 @@ I worked with the wireframes in Balsamic. **Can I link directly here in the text
 (Feature 1 - allows users X to achieve Y, by having them fill out Z)
 * The About me page is the landing page and gives a short introduction to Joel Adrian. 
 * The My work page shows Joels resume directly on the page to be easily overviewed before you possibly want to download it. Under it it´s also possible to click on an icon to be able to download it. Underneath the resume area it´s also possible to click on another icon to get to Joel Adrians IMDB page.
-* The Videos page include two videos that shows what kind of stunts Joel is able to to and clips from movies. 
+* The Videos page include three videos that shows what kind of stunts Joel is able to to and clips from movies.
 * The Photos page shows images in one row that is clickable and will show in a separate window if clicked on.
 * The Contact page include a contact form that gives the opportunity to get in touch with Joel with collaboration ideas or job opportunities. The contact form is placed with no other content on the page to be easily accessed and also gives clear instructions so the users quickly can send a message to Joel.
 * The navbar and the footer have the same color, so every page will give a sense of a familiarity, even though the content is changing.
@@ -143,7 +143,7 @@ The text on the About me page was written by Joel Adrian, sent to me in purpose 
 ### Media
 The photos used in this site were obtained from Joel Adrian, the owner of the photos.
 The videos used in this site were linked from Joel Adrians own Vimeo page, the owner of the videos. Here is [one of them.](https://vimeo.com/339213684)
-and here is [the other video](https://vimeo.com/198885890) from Joel Adrians Vimeo page.
+and here is [one more](https://vimeo.com/198885890). Have a look here at [the third video](https://vimeo.com/339954257) from Joel Adrians Vimeo page.
 
 ### Acknowledgements
 I received inspiration for this project from [this website](https://www.ellettecraddock.com/)
