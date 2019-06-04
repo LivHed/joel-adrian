@@ -22,7 +22,6 @@
     align-items: center;
     justify-content: center;
     position: relative;
-   
 }
 
 /* ---------------------Scrollbar. This is a custom scrollbar, and not supported in Firefox or IE/Edge */
@@ -46,7 +45,6 @@
   background: #555; 
 }
     
-
 
 
 /* ----------------------------------------------Nav bar */
