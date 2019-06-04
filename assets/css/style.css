@@ -28,6 +28,7 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
+    
    
 }
 
@@ -102,7 +103,7 @@ body {
  .about-container {
    margin: 20px 0 20px 0; /*20px to push down jumbotron a bit from navbar so it looks better on the screen */
    padding: 10px;
-  
+  line-height: 2; 
 }
 
  .jumbotron {
