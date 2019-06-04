@@ -100,7 +100,7 @@ body {
 /* ---------------------------------------About me page */
 
  .about-container {
-   margin: 80px 0 20px 0; /*80px to push down jumbotron a bit from navbar so it looks better on the screen */
+   margin: 20px 0 20px 0; /*20px to push down jumbotron a bit from navbar so it looks better on the screen */
    padding: 10px;
   
 }
