@@ -124,16 +124,20 @@ The content on the web pages also disappears underneath it. I tried to change th
 If this section grows too long, you may want to split it off into a separate file and link to it from here.*how do I do this?*
 
 ## Deployment
-This website is hosted on GitHub pages, and deployed from the master branch using this method:
+**This website is hosted on GitHub pages, and deployed from the master branch by following these steps:**
+* In the repository, click on settings in top right corner.
+* Scroll down the page to GitHub Pages section.
+* In the source dropdown you chose the alternative master branch.
+* The published link will appear in the GitHub Pages section.
+* Click on the link and you will reach the website.
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages).
+Upon new commits to the master branch, the deployed site will automatically update. 
+The landing page must be named index.html for the site to deploy correctly on GitHub pages.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+**To run locally- You can clone this repository directly into the editor you prefer by following these steps:**
+* Click on the green "clone or download" button on the repository page
+* Or paste following: git clone https://github.com/LivHed/joel-adrian.git into your terminal. Press enter, and your local clone will be created. 
+* The last step is to cut ties with this GitHub repository. To do this type git remote rm origin into the terminal.
 
 ## Credits
 ### Content
