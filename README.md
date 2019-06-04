@@ -30,24 +30,19 @@ I worked with the wireframes in Balsamic. **Can I link directly here in the text
 (In this section, you should go over the different parts of your project, and describe each in a sentence or so.)
 ### Existing Features
 (Feature 1 - allows users X to achieve Y, by having them fill out Z)
-* The navbar and the footer have the same color, so every page will give a sense of a familiarity, even though the content is changing.
-* I planned for the scrollbar to be discrete. That´s why I chose a background color that is slightly darker than the navbar and the footer. I chose not to have the same color as them, so it won´t give the impression that they float together as one element. 
 * The About me page is the landing page and gives a short introduction to Joel Adrian. 
-* The My work page show Joels resume directly on the page, and also give the opportunity to click on a link to download the resume and click on another link to get to Joel Adrians IMDB page.
+* The My work page shows Joels resume directly on the page to be easily overviewed before you possibly want to download it. Under it it´s also possible to click on an icon to be able to download it. Underneath the resume area it´s also possible to click on another icon to get to Joel Adrians IMDB page.
 * The Videos page include two videos that shows what kind of stunts Joel is able to to and clips from movies. 
 * The Photos page shows images in one row that is clickable and will show in a separate window if clicked on.
-* The Contact page include a contact form that gives the opportunity to get in touch with Joel with collaboration ideas or job opportunities. 
-* The fullwidth background image is suppose to remind the users what Joel is all about, a Stunt Performer with experience in the movie industry. The content scrolls infront of the image and it is the same on all pages to give a sense of familiarity and a recognizable design. 
-* Joels name is not conventionally placed up in the left corner as a brand or logo, on purpose. After his wishes with a discrete design we agreed on only havning his name in the title and on the landing page, and let the background image remind the users of who´s website they´re on. 
+* The Contact page include a contact form that gives the opportunity to get in touch with Joel with collaboration ideas or job opportunities. The contact form is placed with no other content on the page to be easily accessed and also gives clear instructions so the users quickly can send a message to Joel.
+* The navbar and the footer have the same color, so every page will give a sense of a familiarity, even though the content is changing.
 * The navbar collapse on smaller screens, which provides a discrete design and simple user experience with the menu items grouped together.
+* I planned for the scrollbar to be discrete. That´s why I chose a background color that is slightly darker than the navbar and the footer. I chose not to have the same color as them, so it won´t give the impression that they float together as one element. 
+* The fullwidth background image is suppose to remind the users what Joel is all about, a Stunt Performer with experience in the movie industry. The content scrolls infront of the image which is the same on all pages, to give a sense of familiarity with a recognizable design. 
+* Joels name is not conventionally placed up in the left corner as a brand or logo, on purpose. After his wishes with a discrete design we agreed on only havning his name in the title and on the landing page, and let the background image remind the users of who´s website they´re on. 
 * The Download my resume link and the Social links is placed in the footer to be easily accessed on every page on the website.
-* The contact form is placed with no other content on the page to be easily accessed and also gives instructions that is easily understood so the users quickly can send a message to Joel.
-* The resume pdf document is also embedded responsively in the My work page, to be easily overviewed. Under it it´s also possible to click on an icon to be able to download it. 
-* A custom scrollbar is added so the users can be able to scroll up and down all of the pages when needed.
+* A custom scrollbar is added so the users can be able to scroll up and down all of the pages when needed. Smooth scroll effect is added.
 * The hover effects is designed with a dark color to suit the users and the transition effect is set to feel smooth.
-
-(For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.)
-(In addition, you may also use this section to discuss plans for additional features to be implemented in the future:)
 
 ### Features Left to Implement
 1. In the future I want to add more videos to expand the experience of Joel as an experienced Stunt Performer. Today these videos are the existing that Joel want to share.
