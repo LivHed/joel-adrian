@@ -1,12 +1,13 @@
+/* Body */
  body {
     font-family: 'Merriweather', serif;
     color: #F5F5F5;
     padding-top: 60px;
     margin: 0;
     height:100%;
-     
+   
 /* makes a smooth scroll */
-    scroll-behavior: smooth;
+   scroll-behavior: smooth;
     
 /* I want the background-img to cover the screen on different sizes and to not scroll with the pages content*/
     background: url("../images/file6-2.jpeg");
@@ -33,7 +34,7 @@
 
  /* Track */
 ::-webkit-scrollbar-track {
-  background: #2d2d2d; /* Add a slightly darker color to the scrollbar, so it won´t float together with the footer and the header, but don´t stand out too much. */
+  background: #2d2d2d; /* A slightly darker color added to the scrollbar, so it won´t float together with the color of the footer and the header, but don´t stand out too much either. */
 }
 
 /* Handle */
@@ -46,7 +47,6 @@
   background: #555; 
 }
     
-
 
 
 
@@ -202,15 +202,6 @@ footer {
     width: 100%;
 }  
    
-
- /* .footer-height {
-  height: 80px; 
-  
-   @media screen and (max-width: 600px) {
-       height: 160px;
-  } 
-} */
-
 
 .resume-pdf i {
     font-size: 24px;
