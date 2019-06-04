@@ -5,7 +5,8 @@ This is Milestone Project 1: User Centric Frontend Development - Code Institute.
 This is a website that functions as a portfolio for Joel Adrian, Stunt Performer. The portfolio enables all of Joels work to be gathered and shown in one place, in form of photos, videos and a resume.
 The website have five pages that shows a presentation of Joel, what kind of work he have done and how you can contact him or follow him on social media. 
 [Check it out here!](https://livhed.github.io/joel-adrian/)
----------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------
 ## UX
 After doing research looking at websites from the Stunt Performer community and interviewing Joel about his wishes and needs with the portfolio, my goals with the design was set to: 
 1. To make the design suitable for the stunt-community with fonts and colors that provides a feeling of a tough and rough edge, but still maintain a stylistic and clean design.
@@ -130,6 +131,5 @@ The videos used in this site were linked from Joel Adrians own Vimeo page, the o
 and here is [one more](https://vimeo.com/198885890). Have a look here at [the third video](https://vimeo.com/339954257).
 
 ### Acknowledgements
-I received inspiration for this project from [this beautiful website](https://www.ellettecraddock.com/).
 I Copied the code for the contact form from [this page](https://codepen.io/BlackNina/pen/MxoVqv?editors=1000) and then modified it to what suits my needs.
 The original code for the image grid was copied from [this page](https://mdbootstrap.com/docs/jquery/content/images/) and then customized for my one column-idea. 
