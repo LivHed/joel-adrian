@@ -21,15 +21,11 @@ After doing research looking at websites from the Stunt Performer community and 
 * As a fan of Joel Adrian I want to look at pictures and videos of him, so I can get to know more about him. I also want to find out where I can follow him on social media. 
 
 ### Wireframes
-The wireframes I did as a part of the design process are saved as pdf documents and kept in a separate folder in this project, which is called **wireframe**. One is designed for desktop view and the other for mobile view.
-I worked with the wireframes in Balsamic. **Can I link directly here in the text to the wireframe directory?**
-(This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.)
-
+The wireframes I did as a part of the design process are saved as pdf documents and kept in a separate folder in this project, which is called **wireframe**. 
+One is designed for desktop view and the other for mobile view. [Check them out here](https://github.com/LivHed/joel-adrian/tree/master/wireframe). I worked with the wireframes in Balsamic.
 
 ## Features
-(In this section, you should go over the different parts of your project, and describe each in a sentence or so.)
 ### Existing Features
-(Feature 1 - allows users X to achieve Y, by having them fill out Z)
 * The About me page is the landing page and gives a short introduction to Joel Adrian. 
 * The My work page shows Joels resume directly on the page to be easily overviewed before you possibly want to download it. Under it it´s also possible to click on an icon to be able to download it. Underneath the resume area it´s also possible to click on another icon to get to Joel Adrians IMDB page.
 * The Videos page include three videos that shows what kind of stunts Joel is able to to and clips from movies.
@@ -55,10 +51,6 @@ I worked with the wireframes in Balsamic. **Can I link directly here in the text
 * **Other tools** I have used are [Cloud9 IDE](https://aws.amazon.com/cloud9/?origin=c9io) for the development of this site: writing, debugging and running my code. GIT was then used to push files to [Github](http://github.com) where the project is stored and deployed.
 * As part of the **design process** i chose to use [Balsamic](https://balsamiq.com/) to make my wireframes in a simple way with a goodlooking result.
 
-
-(In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-JQuery- The project uses JQuery to simplify DOM manipulation.)
-
 ## Testing
 Here I present how my website meet the needs of the different kinds of users that will visit the site, which I presented in the section UX: User stories:
 * As a colleague in the business I want to have a look at Joel Adrians work to find out what projects he´s busy on, befriend him on social media to expand my network in the business, and send him a message on the contact page with a collaboration idea. --> This information can be easily found since all page sections are clearly labelled in the navbar which is placed in the conventional place on top of the page.
@@ -80,13 +72,6 @@ Since the footer is also placed in the conventional bottom of the page position,
 * The embedded videos also changes in it´s size when making the screen size smaller and is still good to watch.
 * The embedded pdf resume document is responsive, and on smaller screens the scrollbars in the document appears even horizontally. 
 * The contactform act responsive when the screen gets smaller and still functions properly. 
-
-(Write about how each part of your responsive website behaves on different screen sizes)
-
-(In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.)
-
-(Whenever it is feasible, prefer to automate your tests *what does this mean, automate your tests?*, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.)
-(For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
 #### Testing process scenarios 
 1. **Contact form** 
@@ -114,14 +99,11 @@ Since the footer is also placed in the conventional bottom of the page position,
 * Click on the icons from all pages and verify that this is working.
 * At last go to My work page and I click on the IMDB icon under the resume Pdf document, under the text "My IMDB page. Check it out here!, and then verify that this link is working. 
 
-
 * **Bugs I came across while creating the site and while testing it**
 When testing the webiste on smaller screen sizes I discovered that half of the footer disappears underneath the edge of the screen. 
 The content on the web pages also disappears underneath it. I tried to change the position to relative and absolute intstead of fixed to the bottom. But this did not work. 
 * **present the solution when I find it**
 (Include the fixes you came up with.)
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.*how do I do this?*
 
 ## Deployment
 **This website is hosted on GitHub pages, and deployed from the master branch by following these steps:**
@@ -141,8 +123,7 @@ The landing page must be named index.html for the site to deploy correctly on Gi
 
 ## Credits
 ### Content
-The text on the About me page was written by Joel Adrian, sent to me in purpose to use it on the website. 
-(for section Y was copied from the Wikipedia article Z)
+The text on the About me page was written by Joel Adrian, sent to me in purpose to use it on the website.
 
 ### Media
 The photos used in this site were obtained from Joel Adrian, the owner of the photos.
@@ -150,6 +131,6 @@ The videos used in this site were linked from Joel Adrians own Vimeo page, the o
 and here is [one more](https://vimeo.com/198885890). Have a look here at [the third video](https://vimeo.com/339954257) from Joel Adrians Vimeo page.
 
 ### Acknowledgements
-I received inspiration for this project from [this website](https://www.ellettecraddock.com/)
-I Copied the code for the contact form from [this page](https://codepen.io/BlackNina/pen/MxoVqv?editors=1000) and then I modified it to how suits my needs.
+I received inspiration for this project from [this beautiful website](https://www.ellettecraddock.com/)
+I Copied the code for the contact form from [this page](https://codepen.io/BlackNina/pen/MxoVqv?editors=1000) and then I modified it to what suits my needs.
 The original code for the image grid was copied from [this page](https://mdbootstrap.com/docs/jquery/content/images/) and then customized for my one column-idea. 
