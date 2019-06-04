@@ -43,6 +43,7 @@ One is designed for desktop view and the other for mobile view. [Check them out 
 ### Features Left to Implement
 1. In the future I want to add more videos to expand the feeling of Joel as an experienced Stunt Performer. The videos that are included now are the ones that Joel currently wants to share.
 2. In the future I also want to change the current image grid to a lightbox, for the users to be able to see the images on the same page they are currently on. I want to test this to see if this technique changes the amount of clicks on the Photos page and to make the experience more user friendly on smaller screens.
+3. I would like to change the look of the embedded resume in the future, and implement it on the page with another technique to be more goodlooking on smaller screens.
 
 ## Technologies Used
 * **The languages** I have used for this project is [HTML5](https://www.w3schools.com/html/html5_intro.asp) and [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3). I have used Bootstrap grid with the built in media queries for the content to be responsive on all screen sizes. 
@@ -100,11 +101,7 @@ Since the footer is also placed in the conventional bottom of the page position,
 * At last go to My work page and I click on the IMDB icon under the resume Pdf document, under the text "My IMDB page. Check it out here!, and then verify that this link is working. 
 
 5. **Bugs I came across while creating the site and while testing it**
-* When testing the webiste on smaller screen sizes I discovered that half of the footer disappear underneath the edge of the screen. 
-The content on the web pages also disappears underneath it.
-*What I tried to do* I tried to change the position to relative and absolute intstead of fixed to the bottom. But this did not work.
-The **solution** for this was to add margin-bottom height to the content elements, and set a height to the footer and to add a media query for a larger height on smaller devices, so the whole footer will show even on smaller screens. 
-* One other bug I found when testing the website on all of Google Chrome Dev tools Toggle device toolbar, I found that on some of them the screen was showing a white edge to the right on the screen, or in the bottom. Most usual on Iphone 5/SE and Iphone 6/7/8. 
+* One bug I found when testing the website on all of Google Chrome Dev tools Toggle device toolbar, I found that on some of them the screen was showing a white edge to the right on the screen, or in the bottom. Most usual on Iphone 5/SE and Iphone 6/7/8. 
 So far this is an unresolved bug not yet fixed. 
 
 

@@ -11,25 +11,27 @@
   <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 
- <title>Joel Adrian - Stunt Performer</title>
-  <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png"> <!--Added favicon, a picture from this site of Joel in action-->
-  
+  <title>Joel Adrian - Stunt Performer</title>
+  <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+  <!--Added favicon, a picture from this site of Joel in action-->
+
 </head>
 
 
 <body>
- 
+
   <!-- NAVBAR, The navigation links is positioned beside eachother on larger screens, but the class navbar-expand-sm is added for responsive collapsing on small screens-->
   <header>
-      <nav class="navbar fixed-top navbar-dark navbar-expand-sm">
-        <div class="container-fluid">
+    <nav class="navbar fixed-top navbar-dark navbar-expand-sm">
+      <div class="container-fluid">
 
         <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
         <div class="collapse navbar-collapse text-center" id="navbarNav">
-          <ul class="navbar-nav mx-auto text-uppercase"> <!--for a centered navbar I added mx-auto class to ul-->
+          <ul class="navbar-nav mx-auto text-uppercase">
+            <!--for a centered navbar I added mx-auto class to ul-->
 
             <li class="nav-item active">
               <a class="nav-link mr-2 ml-2" href="index.html">About me<span class="sr-only">(current)</span></a>
@@ -48,100 +50,87 @@
             </li>
           </ul>
         </div>
-        
+
+      </div>
+    </nav>
+
+  </header>
+
+  <!--Copied and pasted from "Bootstrap 4 Contact form" from https://codepen.io/BlackNina/pen/MxoVqv?editors=1000 , then modified it to my own style-->
+
+  <section class="contact-section p-4 p-lg-5 text-center" id="contact">
+    <div class="my-auto rounded">
+      <h2 class="mb-4 collaboration-text">Do you have a collaboration in mind?</h2>
+      <h3 class="collaboration-text">Get in touch!</h3>
+
+      <!--Using flexbox to display the items vertically and to create a flexbox container-->
+      <form class="contact-form d-flex flex-column align-items-center" action="https://formspree.io/joeladrian@outlook.com" method="POST">
+
+        <div class="form-group w-75">
+          <input type="text" class="form-control" placeholder="Name" name="name" required/>
         </div>
-      </nav> 
-      
-</header>
 
-<!--Copied and pasted from "Bootstrap 4 Contact form" from https://codepen.io/BlackNina/pen/MxoVqv?editors=1000 , then modified it to my own style-->
-
-<section class="contact-section p-4 p-lg-5 text-center" id="contact">
-        <div class="my-auto rounded">
-          <h2 class="mb-4 collaboration-text">Do you have a collaboration in mind?</h2>
-           <h3 class="collaboration-text">Get in touch!</h3>
-           
-<!--Using flexbox to display the items vertically and to create a flexbox container-->
-          <form
-            class="contact-form d-flex flex-column align-items-center" 
-            action="https://formspree.io/joeladrian@outlook.com"
-            method="POST"> 
-            
-            <div class="form-group w-75">
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Name"
-                name="name"
-                required/>
-            </div>
-            
-            <div class="form-group w-75">
-              <input
-                type="email"
-                class="form-control"
-                placeholder="Email"
-                name="email"
-                required/>
-            </div>
-
-            <div class="form-group w-75">
-              <textarea
-                class="form-control"
-                placeholder="Message"
-                rows="7"
-                name="message"
-                required></textarea>
-            </div>
-
-            <button type="submit" class="btn btn-submit btn-info w-25">Send</button> <!--w-25 to resize the button to smaller size-->
-          </form>
+        <div class="form-group w-75">
+          <input type="email" class="form-control" placeholder="Email" name="email" required/>
         </div>
-      </section>
-      
+
+        <div class="form-group w-75">
+          <textarea class="form-control" placeholder="Message" rows="7" name="message" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-submit btn-info w-25">Send</button>
+        <!--w-25 to resize the button to smaller size-->
+      </form>
+    </div>
+  </section>
+
 
   <!--Footer section, divided into two columns. I wanted to use the Bootstrap grid system for the responsive behaviour-->
-   <footer class="container-fluid fixed-bottom">
-        <div id="footer-details" class="row text-center">
-            <div class="col-12 col-md-6">   <!--On screens smaller than 768px the columns will show on top of eachother-->
-                <h6 class="text-uppercase">Download my resume here.</h6> <!--To make it easy for users to download the resume from every page-->
-                <p class="inline-block">
-                    <a href="assets/resume/joeladrianresume.pdf" target="_blank" class="resume-pdf">
+  <footer class="container-fluid fixed-bottom">
+    <div id="footer-details" class="row text-center">
+      <div class="col-12 col-md-6">
+        <!--On screens smaller than 768px the columns will show on top of eachother-->
+        <h6 class="text-uppercase">Download my resume here.</h6>
+        <!--To make it easy for users to download the resume from every page-->
+        <p class="inline-block">
+          <a href="assets/resume/joeladrianresume.pdf" target="_blank" class="resume-pdf">
                     <i class="fa fa-download" aria-hidden="true"></i>
                     <span class="sr-only">Download Link.</span>
                     </a>
-                </p>
-            </div>
-            <div class="col-12 col-md-6">
-                <h6 class="text-uppercase">Social</h6>
-                <ul class="list-inline social-links"> <!--Three Social links to make it easy for users to click on from every page-->
-                    <li class="list-inline-item mr-2 ml-2"> <!--ml and mr, for changing the space between the items-->
-                        <a href="https://www.facebook.com/joel.slaatto" target="_blank">
+        </p>
+      </div>
+      <div class="col-12 col-md-6">
+        <h6 class="text-uppercase">Social</h6>
+        <ul class="list-inline social-links">
+          <!--Three Social links to make it easy for users to click on from every page-->
+          <li class="list-inline-item mr-2 ml-2">
+            <!--ml and mr, for changing the space between the items-->
+            <a href="https://www.facebook.com/joel.slaatto" target="_blank">
                         <i class="fa fa-facebook" aria-hidden="true"></i>
                         <span class="sr-only">Facebook</span>
                         </a>
-                    </li>
-                    <li class="list-inline-item mr-2 ml-2">
-                        <a href="https://www.instagram.com/joeladrianslaatto/" target="_blank">
+          </li>
+          <li class="list-inline-item mr-2 ml-2">
+            <a href="https://www.instagram.com/joeladrianslaatto/" target="_blank">
                         <i class="fa fa-instagram" aria-hidden="true"></i>
                         <span class="sr-only">Instagram</span>
                         </a>
-                    </li>
-                    <li class="list-inline-item mr-2 ml-2">
-                        <a href="https://www.imdb.com/name/nm6038807/" target="_blank">
+          </li>
+          <li class="list-inline-item mr-2 ml-2">
+            <a href="https://www.imdb.com/name/nm6038807/" target="_blank">
                         <i class="fa fa-imdb" aria-hidden="true"></i>
                         <span class="sr-only">IMDB</span>
                         </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </footer>
-    
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
-  
-  
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+
 </html>
