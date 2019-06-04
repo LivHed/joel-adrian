@@ -100,10 +100,10 @@ Since the footer is also placed in the conventional bottom of the page position,
 * At last go to My work page and I click on the IMDB icon under the resume Pdf document, under the text "My IMDB page. Check it out here!, and then verify that this link is working. 
 
 * **Bugs I came across while creating the site and while testing it**
-When testing the webiste on smaller screen sizes I discovered that half of the footer disappears underneath the edge of the screen. 
-The content on the web pages also disappears underneath it. I tried to change the position to relative and absolute intstead of fixed to the bottom. But this did not work. 
-* **present the solution when I find it**
-(Include the fixes you came up with.)
+When testing the webiste on smaller screen sizes I discovered that half of the footer disappear underneath the edge of the screen. 
+The content on the web pages also disappears underneath it.
+*What I tried to do* I tried to change the position to relative and absolute intstead of fixed to the bottom. But this did not work.
+The **solution** for this was to add margin-bottom height to the content elements, and set a height to the footer and to add a media query for a larger height on smaller devices, so the whole footer will show even on smaller screens. 
 
 ## Deployment
 **This website is hosted on GitHub pages, and deployed from the master branch by following these steps:**
