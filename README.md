@@ -40,6 +40,7 @@ One is designed for desktop view and the other for mobile view. [Check them out 
 * Joels name is not conventionally placed in the top left corner as a brand or logo, on purpose. After his wishes with a discrete design we agreed on only having his name in the title and on the landing page, and let the background image remind the users of who´s website they´re on. 
 * The Download my resume link and the Social links is placed in the footer to be easily accessed on every page on the website.
 * The hover effects on the icons and navbar items is designed with a dark color to suit the users, and the transition effect is set to feel smooth.
+* A Favicon added for a better overall look of the website. 
 
 ### Features Left to Implement
 1. In the future I want to add more videos to expand the feeling of Joel as an experienced Stunt Performer. The videos that are included now are the ones that Joel currently wants to share.
