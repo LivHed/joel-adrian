@@ -6,7 +6,7 @@
     height:100%;
      
 /* makes a smooth scroll */
-    scroll-behaviour: smooth;
+    scroll-behavior: smooth;
     
 /* I want the background-img to cover the screen on different sizes and to not scroll with the pages content*/
     background: url("../images/file6-2.jpeg");
@@ -80,7 +80,7 @@
  .jumbotron {
     background-color: #0000005e;
     padding-top: 75px;
-    padding-bottom:; 75px;
+    padding-bottom: 75px;
 }   
 
     
