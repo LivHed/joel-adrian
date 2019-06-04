@@ -12,14 +12,14 @@
   <link rel="stylesheet" href="assets/css/style.css">
   
   <title>Joel Adrian - Stunt Performer</title>
-  <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+  <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png"> <!--Added favicon, a picture from this site of Joel in action-->
   
 </head>
 
 
 <body>
  
-  <!-- NAVBAR, for a centered navbar I added mx-auto class to ul-->
+  <!-- NAVBAR, The navigation links is positioned beside eachother on larger screens, but the class navbar-expand-sm is added for responsive collapsing on small screens-->
   <header>
       <nav class="navbar fixed-top navbar-dark navbar-expand-sm">
         <div class="container-fluid">
@@ -29,7 +29,7 @@
   </button>
 
         <div class="collapse navbar-collapse text-center" id="navbarNav">
-          <ul class="navbar-nav mx-auto text-uppercase">
+          <ul class="navbar-nav mx-auto text-uppercase"> <!--for a centered navbar I added mx-auto class to ul-->
 
             <li class="nav-item active">
               <a class="nav-link mr-2 ml-2" href="index.html">About me<span class="sr-only">(current)</span></a>
@@ -54,7 +54,7 @@
       
 </header>
 
-<!-- About me section -->
+<!-- About me section, Jumbotron with a transparent background. Short presentation of Joel Adrian-->
 
      <section class="container about-container">
         <div class="row">
@@ -72,11 +72,11 @@
         </section>
   
     
-  <!--Footer section-->
+  <!--Footer section, divided into two columns. I wanted to use the Bootstrap grid system for the responsive behaviour-->
    <footer class="container-fluid fixed-bottom">
         <div id="footer-details" class="row text-center">
-            <div class="col-12 col-md-6">   <!--Bootstrap grid. On screens smaller than 768px the columns will show on top of eachother-->
-                <h6 class="text-uppercase">Download my resume here.</h6>
+            <div class="col-12 col-md-6">   <!--On screens smaller than 768px the columns will show on top of eachother-->
+                <h6 class="text-uppercase">Download my resume here.</h6> <!--To make it easy for users to download the resume from every page-->
                 <p class="inline-block">
                     <a href="assets/resume/joeladrianresume.pdf" target="_blank" class="resume-pdf">
                     <i class="fa fa-download" aria-hidden="true"></i>
@@ -86,8 +86,8 @@
             </div>
             <div class="col-12 col-md-6">
                 <h6 class="text-uppercase">Social</h6>
-                <ul class="list-inline social-links">
-                    <li class="list-inline-item mr-2 ml-2">
+                <ul class="list-inline social-links"> <!--Three Social links to make it easy for users to click on from every page-->
+                    <li class="list-inline-item mr-2 ml-2"> <!--ml and mr, for changing the space between the items-->
                         <a href="https://www.facebook.com/joel.slaatto" target="_blank">
                         <i class="fa fa-facebook" aria-hidden="true"></i>
                         <span class="sr-only">Facebook</span>
