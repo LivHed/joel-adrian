@@ -13,46 +13,50 @@
 
     <title>Joel Adrian Portfolio - Stunt Performer</title>
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+    <!--Added favicon, a picture from this site of Joel in action-->
+
 </head>
 
 
 <body>
-    <!-- NAVBAR, wanted the navbar to be centered, so added mx-auto class to ul-->
 
+    <!-- NAVBAR, The navigation links is positioned beside eachother on larger screens, but the class navbar-expand-sm is added for responsive collapsing on small screens-->
     <header>
         <nav class="navbar fixed-top navbar-dark navbar-expand-sm">
-        <div class="container-fluid">
+            <div class="container-fluid">
 
-        <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-        <div class="collapse navbar-collapse text-center" id="navbarNav">
-          <ul class="navbar-nav mx-auto text-uppercase">
+                <div class="collapse navbar-collapse text-center" id="navbarNav">
+                    <ul class="navbar-nav mx-auto text-uppercase">
+                        <!--for a centered navbar I added mx-auto class to ul-->
 
-            <li class="nav-item">
-              <a class="nav-link mr-2 ml-2" href="index.html">About me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link mr-2 ml-2" href="mywork.html">My work</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link mr-2 ml-2" href="videos.html">Videos</a>
-            </li>
-            <li class="nav-item  active">
-              <a class="nav-link mr-2 ml-2" href="photos.html">Photos<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link mr-2 ml-2" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-        
-        </div>
-      </nav> 
+                        <li class="nav-item active">
+                            <a class="nav-link mr-2 ml-2" href="index.html">About me<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mr-2 ml-2" href="mywork.html">My work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mr-2 ml-2" href="videos.html">Videos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mr-2 ml-2" href="photos.html">Photos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mr-2 ml-2" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
     </header>
 
-    <!--Image Grid with rows and columns. Show one image per row on all sizes. The original code for the image grid copied from this page https://mdbootstrap.com/docs/jquery/content/images/ 
+    <!--Image Grid with rows and columns. Show one image per row on all screen sizes. The original code for the image grid was copied from this page https://mdbootstrap.com/docs/jquery/content/images/ 
     and then customized for my one column-idea. I´ve also added thumbnail class to be able to click on the images to open them in a new window-->
 
     <section class="container images-container">
@@ -65,18 +69,18 @@
         <div class="row">
             <div class="col-md-12 mb-3">
                 <div class="thumbnail">
-                <a href="assets/images/file4-2.jpeg" target="_blank">
+                    <a href="assets/images/file4-2.jpeg" target="_blank">
                 <img src="assets/images/file4-2.jpeg" class="img-fluid z-depth-1" alt="Responsive image">
                 </a>
+                </div>
             </div>
         </div>
-        </div>
-        
+
 
         <div class="row">
             <div class="col-md-12 mb-3">
                 <div class="thumbnail">
-                <a href="assets/images/file5-2.jpeg" target="_blank">
+                    <a href="assets/images/file5-2.jpeg" target="_blank">
                 <img src="assets/images/file5-2.jpeg" class="img-fluid z-depth-1" alt="Responsive image">
                 </a>
                 </div>
@@ -86,7 +90,7 @@
         <div class="row">
             <div class="col-md-12 mb-3">
                 <div class="thumbnail">
-                <a href="assets/images/file8.jpeg" target="_blank">
+                    <a href="assets/images/file8.jpeg" target="_blank">
                 <img src="assets/images/file8.jpeg" class="img-fluid z-depth-1" alt="Responsive image">
                 </a>
                 </div>
@@ -96,7 +100,7 @@
         <div class="row">
             <div class="col-md-12 mb-3">
                 <div class="thumbnail">
-                <a href="assets/images/file2-4.jpeg" target="_blank">
+                    <a href="assets/images/file2-4.jpeg" target="_blank">
                 <img src="assets/images/file2-4.jpeg" class="img-fluid z-depth-1" alt="Responsive image">
                 </a>
                 </div>
@@ -106,7 +110,7 @@
         <div class="row">
             <div class="col-md-12 mb-3">
                 <div class="thumbnail">
-                <a href="assets/images/file1-5.jpeg" target="_blank">
+                    <a href="assets/images/file1-5.jpeg" target="_blank">
                 <img src="assets/images/file1-5.jpeg" class="img-fluid z-depth-1" alt="Responsive image">
                 </a>
                 </div>
@@ -116,17 +120,17 @@
         <div class="row">
             <div class="col-md-12 mb-3">
                 <div class="thumbnail">
-                <a href="assets/images/file7.jpeg" target="_blank">
+                    <a href="assets/images/file7.jpeg" target="_blank">
                 <img src="assets/images/file7.jpeg" class="img-fluid z-depth-1" alt="Responsive image">
                 </a>
                 </div>
             </div>
         </div>
-        
+
         <div class="row">
             <div class="col-md-12 mb-3">
                 <div class="thumbnail">
-                <a href="assets/images/file3-2.jpeg" target="_blank">
+                    <a href="assets/images/file3-2.jpeg" target="_blank">
                 <img src="assets/images/file3-2.jpeg" class="img-fluid z-depth-1" alt="Responsive image">
                 </a>
                 </div>
@@ -136,7 +140,7 @@
         <div class="row">
             <div class="col-md-12 mb-3">
                 <div class="thumbnail">
-                <a href="assets/images/file-13.jpeg" target="_blank">
+                    <a href="assets/images/file-13.jpeg" target="_blank">
                 <img src="assets/images/file-13.jpeg" class="img-fluid z-depth-1" alt="Responsive image">
                 </a>
                 </div>
@@ -147,11 +151,13 @@
 
 
 
-   <!--Footer section-->
-   <footer class="container-fluid fixed-bottom">
+    <!--Footer section, divided into two columns. I wanted to use the Bootstrap grid system for the responsive behaviour-->
+    <footer class="container-fluid fixed-bottom">
         <div id="footer-details" class="row text-center">
             <div class="col-12 col-md-6">
+                <!--On screens smaller than 768px the columns will show on top of eachother-->
                 <h6 class="text-uppercase">Download my resume here.</h6>
+                <!--To make it easy for users to download the resume from every page-->
                 <p class="inline-block">
                     <a href="assets/resume/joeladrianresume.pdf" target="_blank" class="resume-pdf">
                     <i class="fa fa-download" aria-hidden="true"></i>
@@ -162,7 +168,9 @@
             <div class="col-12 col-md-6">
                 <h6 class="text-uppercase">Social</h6>
                 <ul class="list-inline social-links">
+                    <!--Three Social links to make it easy for users to click on from every page-->
                     <li class="list-inline-item mr-2 ml-2">
+                        <!--ml and mr, for changing the space between the items-->
                         <a href="https://www.facebook.com/joel.slaatto" target="_blank">
                         <i class="fa fa-facebook" aria-hidden="true"></i>
                         <span class="sr-only">Facebook</span>
