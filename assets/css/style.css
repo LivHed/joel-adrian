@@ -196,18 +196,20 @@
 footer {
     background-color: #404040;
     color: #fafafa;
-    min-height: 80px; 
+    min-height: 80px;
     position: fixed;
     bottom: 0;
     width: 100%;
-    
-  /*   @media screen and (max-width: 600px) {
-       height: 160px;
-  } */
-}
+}  
+   
 
  /* .footer-height {
-  height: 80px; */ 
+  height: 80px; 
+  
+   @media screen and (max-width: 600px) {
+       height: 160px;
+  } 
+} */
 
 
 .resume-pdf i {
