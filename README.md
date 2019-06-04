@@ -1,11 +1,11 @@
 # Joel Adrian - Stunt performer
 ---------------------------------------------------------------------------------------
-This is Milestone Project 1: User Centric Frontend Development - at Code Institute.
+This is Milestone Project 1: User Centric Frontend Development - Code Institute.
 
 This is a website that functions as a portfolio for Joel Adrian, Stunt Performer. The portfolio enables all of Joels work to be gathered and shown in one place, in form of photos, videos and a resume.
 The website have five pages that shows a presentation of Joel, what kind of work he have done and how you can contact him or follow him on social media. 
 [Check it out here!](https://livhed.github.io/joel-adrian/)
-
+---------------------------------------------------------------------------------------
 ## UX
 After doing research looking at websites from the Stunt Performer community and interviewing Joel about his wishes and needs with the portfolio, my goals with the design was set to: 
 1. To make the design suitable for the stunt-community with fonts and colors that provides a feeling of a tough and rough edge, but still maintain a stylistic and clean design.
@@ -23,7 +23,7 @@ After doing research looking at websites from the Stunt Performer community and 
 ### Wireframes
 The wireframes I did as a part of the design process are saved as pdf documents and kept in a separate folder in this project, which is called **wireframe**. 
 One is designed for desktop view and the other for mobile view. [Check them out here](https://github.com/LivHed/joel-adrian/tree/master/wireframe). I worked with the wireframes in Balsamic.
-
+-----------------------------------------------------------------------------------------------------------
 ## Features
 ### Existing Features
 * The About me page is the landing page and gives a short introduction to Joel Adrian. 
@@ -44,14 +44,14 @@ One is designed for desktop view and the other for mobile view. [Check them out 
 1. In the future I want to add more videos to expand the feeling of Joel as an experienced Stunt Performer. The videos that are included now are the ones that Joel currently wants to share.
 2. In the future I also want to change the current image grid to a lightbox, for the users to be able to see the images on the same page they are currently on. I want to test this to see if this technique changes the amount of clicks on the Photos page and to make the experience more user friendly on smaller screens.
 3. I would like to change the look of the embedded resume in the future, and implement it on the page with another technique to be more goodlooking on smaller screens.
-
+--------------------------------------------------------------------------------------------------------------
 ## Technologies Used
 * **The languages** I have used for this project is [HTML5](https://www.w3schools.com/html/html5_intro.asp) and [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3). I have used Bootstrap grid with the built in media queries for the content to be responsive on all screen sizes. 
 * **The libraries** included are the Javascript libraries [JQuery](https://jquery.com/) and [Popper.js](https://popper.js.org/). And also [Fontawesome](https://fontawesome.com/) to add icons.
 * **Frameworks** I have used is Bootstrap 4.3.1. I used the BootstrapCDN on [this page](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
 * **Other tools** I have used are [Cloud9 IDE](https://aws.amazon.com/cloud9/?origin=c9io) for the development of this site: writing, debugging and running my code. GIT was then used to push files to [Github](http://github.com) where the project is stored and deployed.
 * As part of the **design process** i chose to use [Balsamic](https://balsamiq.com/) to make my wireframes in a simple way with a goodlooking result.
-
+-------------------------------------------------------------------------------------------------------------------
 ## Testing
 Here I present how my website meet the needs of the different kinds of users that will visit the site, which I presented in the section UX: User stories:
 * As a colleague in the business I want to have a look at Joel Adrians work to find out what projects he´s busy on, befriend him on social media to expand my network in the business, and send him a message on the contact page with a collaboration idea. --> This information can be easily found since all page sections are clearly labelled in the navbar which is placed in the conventional place on top of the page.
@@ -103,8 +103,7 @@ Since the footer is also placed in the conventional bottom of the page position,
 5. **Bugs I came across while creating the site and while testing it**
 * One bug I found when testing the website on all of Google Chrome Dev tools Toggle device toolbar, I found that on some of them the screen was showing a white edge to the right on the screen, or in the bottom. Most usual on Iphone 5/SE and Iphone 6/7/8. 
 So far this is an unresolved bug not yet fixed. 
-
-
+--------------------------------------------------------------------------------------------------------------
 ## Deployment
 **This website is hosted on GitHub pages, and deployed from the master branch by following these steps:**
 * In the repository, click on settings in top right corner.
@@ -120,7 +119,7 @@ The landing page must be named index.html for the site to deploy correctly on Gi
 * Click on the green "clone or download" button on the repository page
 * Or paste following: git clone https://github.com/LivHed/joel-adrian.git into your terminal. Press enter, and your local clone will be created. 
 * The last step is to cut ties with this GitHub repository. To do this type git remote rm origin into the terminal.
-
+------------------------------------------------------------------------------------------------------------
 ## Credits
 ### Content
 The text on the About me page was written by Joel Adrian, sent to me in purpose to use it on the website.
@@ -128,7 +127,7 @@ The text on the About me page was written by Joel Adrian, sent to me in purpose 
 ### Media
 The photos used in this site were obtained from Joel Adrian, the owner of the photos.
 The videos used in this site were linked from Joel Adrians own Vimeo page, the owner of the videos. Here is [one of them.](https://vimeo.com/339213684)
-and here is [one more](https://vimeo.com/198885890). Have a look here at [the third video](https://vimeo.com/339954257) from Joel Adrians Vimeo page.
+and here is [one more](https://vimeo.com/198885890). Have a look here at [the third video](https://vimeo.com/339954257).
 
 ### Acknowledgements
 I received inspiration for this project from [this beautiful website](https://www.ellettecraddock.com/)
