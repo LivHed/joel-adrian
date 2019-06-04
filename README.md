@@ -39,20 +39,20 @@ I worked with the wireframes in Balsamic. **Can I link directly here in the text
 * The navbar collapse on smaller screens, which provides a discrete design and simple user experience with the menu items grouped together.
 * I planned for the scrollbar to be discrete. That´s why I chose a background color that is slightly darker than the navbar and the footer. I chose not to have the same color as them, so it won´t give the impression that they float together as one element. 
 * The fullwidth background image is suppose to remind the users what Joel is all about, a Stunt Performer with experience in the movie industry. The content scrolls infront of the image which is the same on all pages, to give a sense of familiarity with a recognizable design. 
-* Joels name is not conventionally placed up in the left corner as a brand or logo, on purpose. After his wishes with a discrete design we agreed on only havning his name in the title and on the landing page, and let the background image remind the users of who´s website they´re on. 
+* Joels name is not conventionally placed up in the left corner as a brand or logo, on purpose. After his wishes with a discrete design we agreed on only having his name in the title and on the landing page, and let the background image remind the users of who´s website they´re on. 
 * The Download my resume link and the Social links is placed in the footer to be easily accessed on every page on the website.
 * A custom scrollbar is added so the users can be able to scroll up and down all of the pages when needed. Smooth scroll effect is added.
-* The hover effects is designed with a dark color to suit the users and the transition effect is set to feel smooth.
+* The hover effects on the icons and navbar items is designed with a dark color to suit the users and the transition effect is set to feel smooth.
 
 ### Features Left to Implement
-1. In the future I want to add more videos to expand the experience of Joel as an experienced Stunt Performer. Today these videos are the existing that Joel want to share.
-2. In the future I also want to change the current image grid to a lightbox, for the users to be able to see the images on the same page they are currently on. I want to test this to see if this technique changes the amount of clicks on the Photos page.
+1. In the future I want to add more videos to expand the feeling of Joel as an experienced Stunt Performer. The videos that are included now are the ones that Joel currently wants to share.
+2. In the future I also want to change the current image grid to a lightbox, for the users to be able to see the images on the same page they are currently on. I want to test this to see if this technique changes the amount of clicks on the Photos page and to make the experience more user friendly on smaller screens.
 
 ## Technologies Used
 * **The languages** I have used for this project is [HTML5](https://www.w3schools.com/html/html5_intro.asp) and [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3). I have used Bootstrap grid with the built in media queries for the content to be responsive on all screen sizes. 
 * **The libraries** included are the Javascript libraries [JQuery](https://jquery.com/) and [Popper.js](https://popper.js.org/). And also [Fontawesome](https://fontawesome.com/) to add icons.
 * **Frameworks** I have used is Bootstrap 4.3.1. I used the BootstrapCDN on [this page](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
-* **Other tools** I have used are [Cloud9 IDE](https://aws.amazon.com/cloud9/?origin=c9io) for writing, debugging and running my code, and then pushed it to [Github](http://github.com) where the project is stored and deployed.
+* **Other tools** I have used are [Cloud9 IDE](https://aws.amazon.com/cloud9/?origin=c9io) for the development of this site: writing, debugging and running my code. GIT was then used to push files to [Github](http://github.com) where the project is stored and deployed.
 * As part of the **design process** i chose to use [Balsamic](https://balsamiq.com/) to make my wireframes in a simple way with a goodlooking result.
 
 
@@ -90,29 +90,29 @@ Since the footer is also placed in the conventional bottom of the page position,
 
 #### Testing process scenarios 
 1. **Contact form** 
-* I went to the "Contact" page
-* I tried to submit the form with all the fields empty, and I could verify that a relevant error message showed up. 
-* I tried to submit the form with an invalid email adress (without the @ character), and I could verify that a relevant error message showed up.
-* I tried to submit the form with all inputs valid and I could verify that a success message appears in a new window. 
-* I also tried this process on smaller screen sizes and could verify that the form is responsive and works on all sizes. 
+* Go to the "Contact" page
+* Try to submit the form with all the fields empty, and verify that a relevant error message shows up. 
+* Try to submit the form with an invalid email adress (without the @ character), and verify that a relevant error message shows up.
+* Try to submit the form with all inputs valid and verify that a success message appears in a new window. 
+* Try this process on smaller screen sizes and verify that the form is responsive and works on all sizes. 
 * Bug discovered, which is not adressed yet: When typing an email with the @ character but without the . dot the form could be submitted anyway.
 
 2. **Download resume in footer**
-* I clicked on Download my resume in the footer.
-* I clicked on the download icon, and could verify that the resume in pdf format opens up in a new tab.
-* I clicked on the download button in the top right corner of the document and could verify that I could download it to my computer. 
-* At last I closed the tab and got back to the website.
+* Click on Download my resume in the footer.
+* Click on the download icon, and verify that the resume in pdf format opens up in a new tab.
+* Click on the download button in the top right corner of the document and verify that I can download it to my computer. 
+* At last close the tab and go back to the website.
 
 3. **Download resume in My work page**
-* I went to the "My work" page and I could verify that the embedded pdf is showing, and that it´s possible to zoom and scroll in the document at the My work page. 
-* I clicked on download button on the embedded pdf and could verify that it could be downloaded to my computer from here as well.
-* I scrolled down the page and clicked on the download icon under the text "Click here to download my resume!"located just under the pdf document, and I could verify that the pdf opens up in a new tab and is possible to download to my computer. 
-* I tried this process on smaller screen sizes and could verify that the pdf is responsive and that this worked on smaller screens.
+* Go to the "My work" page and verify that the embedded pdf is showing, and that it´s possible to zoom and scroll in the document at the My work page. 
+* Click on download button on the embedded pdf and verify that it can be downloaded to my computer from here as well.
+* Scroll down the page and click on the download icon under the text "Click here to download my resume!" located just under the pdf document, and verify that the pdf opens up in a new tab and is possible to download to my computer. 
+* Try this process on smaller screen sizes and verify that the pdf is responsive and that this works on smaller screens.
 
 4. **Social links**
-* I clicked on the icons in the footer, on by one, and could verify that they opened up i separate tabs leading to the social links: Facebook, Instagram and IMDB. 
-* I then clicked on the icons from all pages and could verify that this is working.
-* At last I went to My work page and I clicked on the IMDB icon under the resume Pdf document, under the text "My IMDB page. Check it out here!, and could verify that this link is also working"
+* Click on the icons in the footer, on by one, and verify that they open up in separate tabs leading to the social links: Facebook, Instagram and IMDB. 
+* Click on the icons from all pages and verify that this is working.
+* At last go to My work page and I click on the IMDB icon under the resume Pdf document, under the text "My IMDB page. Check it out here!, and then verify that this link is working. 
 
 
 * **Bugs I came across while creating the site and while testing it**
@@ -121,11 +121,11 @@ The content on the web pages also disappears underneath it. I tried to change th
 * **present the solution when I find it**
 (Include the fixes you came up with.)
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
 If this section grows too long, you may want to split it off into a separate file and link to it from here.*how do I do this?*
 
 ## Deployment
+This website is hosted on GitHub pages, and deployed from the master branch using this method:
+
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages).
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
