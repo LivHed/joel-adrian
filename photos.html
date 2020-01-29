@@ -56,9 +56,196 @@
 
     </header>
 
+  
+  
+ 
+<div class="container images-container mt-4 mb-6">
+
+    <h1 class="text-uppercase text-center">Photos</h1>
+		<hr>
+
+    <!-- Grid row -->
+<div class="row images-row mb-3">
+  
+
+  <!-- Grid column -->
+  <div class="col-md-12 mb-1">
+
+  <!-- Trigger the Modal -->
+<img id="myImg" src="assets/images/file4-2.jpeg" alt="Fightscene" style="width:100%;max-width:1000px">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+</div>
+
+</div>  
+
+
+<!-- Grid column -->
+  <div class="col-md-12 mb-1">
+
+  <!-- Trigger the Modal -->
+<img id="myImg" src="assets/images/file5-2.jpeg" alt="From studio" style="width:100%;max-width:1000px">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+   <!-- The Close Button -->
+  <span class="close">&times;</span>
+</div>
+ 
+</div>
+
+
+<!-- Grid column -->
+  <div class="col-md-12 mb-1">
+
+  <!-- Trigger the Modal -->
+<img id="myImg" src="assets/images/file8.jpeg" alt="War scene" style="width:100%;max-width:1000px">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img02">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+ 
+</div>
+
+
+<!-- Grid column -->
+  <div class="col-md-12 mb-1">
+
+  <!-- Trigger the Modal -->
+<img id="myImg" src="assets/images/file2-4.jpeg" alt="Studio photo" style="width:100%;max-width:1000px">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img02">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+ 
+</div>
+
+
+<!-- Grid column -->
+  <div class="col-md-12 mb-1">
+
+  <!-- Trigger the Modal -->
+<img id="myImg" src="assets/images/file1-5.jpeg" alt="Fight scene" style="width:100%;max-width:1000px">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img02">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+ 
+</div>
+
+
+<!-- Grid column -->
+  <div class="col-md-12 mb-1">
+
+  <!-- Trigger the Modal -->
+<img id="myImg" src="assets/images/file7.jpeg" alt="Fight scene" style="width:100%;max-width:1000px">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img02">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+ 
+</div>
+
+
+<!-- Grid column -->
+  <div class="col-md-12 mb-1">
+
+  <!-- Trigger the Modal -->
+<img id="myImg" src="assets/images/file3-2.jpeg" alt="Studio photo" style="width:100%;max-width:1000px">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img02">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+ 
+</div>
+
+
+<!-- Grid column -->
+  <div class="col-md-12 mb-1">
+
+  <!-- Trigger the Modal -->
+<img id="myImg" src="assets/images/file-13.jpeg" alt="Backstage photo with horses" style="width:100%;max-width:1000px">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img02">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+ 
+</div>
+
+
+</div>
+</div>
+  
+  
     <!--Image Grid with rows and columns. Show one image per row on all screen sizes. The original code for the image grid was copied from this page https://mdbootstrap.com/docs/jquery/content/images/ 
     and then customized for my one column-idea. I´ve also added thumbnail class to be able to click on the images to open them in a new window-->
 
+<!--
     <section class="container images-container">
         <div class="row images-row">
             <div class="col-12 page-header text-center">
@@ -66,7 +253,7 @@
             </div>
         </div>
 
-        <div class="row">
+       <div class="row">
             <div class="col-md-12 mb-3">
                 <div class="thumbnail">
                     <a href="assets/images/file4-2.jpeg" target="_blank">
@@ -74,8 +261,8 @@
                 </a>
                 </div>
             </div>
-        </div>
-
+        </div>   
+        
 
         <div class="row">
             <div class="col-md-12 mb-3">
@@ -148,8 +335,7 @@
         </div>
 
     </section>
-
-
+-->
 
     <!--Footer section, divided into two columns. I wanted to use the Bootstrap grid system for the responsive behaviour-->
     <footer class="container-fluid fixed-bottom">
@@ -193,6 +379,27 @@
         </div>
     </footer>
 
+<script>
+  
+  var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+};
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+};
+  
+</script>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
